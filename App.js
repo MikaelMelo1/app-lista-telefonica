@@ -1,4 +1,39 @@
-import React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { Home, Farmacia, Login } from "./view/";
+
+function HomeScreen() {
+  return (
+    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
+      <Text>Home Screen</Text>
+    </View>
+  );
+}
+
+const Stack = createNativeStackNavigator();
+
+function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen
+          name="Home"
+          component={Home}
+          options={{
+            title: "Bem vindo",
+            headerTintColor: "red",
+          }}
+        />
+        <Stack.Screen name="Login" component={Login} />
+        <Stack.Screen name="Farmacia" component={Farmacia} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
+
+export default App;
+
+/* import React from "react";
 import { FlatList, Image, StyleSheet, Text, View, Button } from "react-native";
 
 const data = [
@@ -68,21 +103,23 @@ const styles = StyleSheet.create({
   },
 });
 
-const App = () => (
-  <FlatList
-    data={data}
-    renderItem={({ item }) => (
-      <>
-        <View style={styles.itemContainer}>
-          <Image source={{ uri: item.url }} style={styles.image} />
-          <Text style={styles.text}>{item.name}</Text>
-          <Text style={styles.text}>{item.endereco}</Text>
-          <Text style={styles.text}>{item.numero}</Text>
-        </View>
-      </>
-    )}
-    keyExtractor={(item) => item.id}
-  />
-);
+function App() {
+  return (
+    <FlatList
+      data={data}
+      renderItem={({ item }) => (
+        <>
+          <View style={styles.itemContainer}>
+            <Image source={{ uri: item.url }} style={styles.image} />
+            <Text style={styles.text}>{item.name}</Text>
+            <Text style={styles.text}>{item.endereco}</Text>
+            <Text style={styles.text}>{item.numero}</Text>
+          </View>
+        </>
+      )}
+      keyExtractor={(item) => item.id}
+    />
+  );
+}
 
-export default App;
+export default App; */

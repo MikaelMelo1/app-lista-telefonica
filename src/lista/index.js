@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+/*import React, { Component } from "react";
 import { StyleSheet, View, Text, Image } from "react-native";
 
 export default class Lista extends Component {
@@ -32,4 +32,4 @@ const styles = StyleSheet.create({
     width: 20,
     backgroundColor: "black",
   },
-});
+}); */
