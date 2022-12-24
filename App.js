@@ -21,7 +21,8 @@ function App() {
           component={Home}
           options={{
             title: "Bem vindo",
-            headerTintColor: "red",
+            headerTintColor: "black",
+            headerTitleAlign: "center",
           }}
         />
         <Stack.Screen name="Login" component={Login} />
