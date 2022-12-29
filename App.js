@@ -1,6 +1,6 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { Home, Farmacia, Login } from "./view/";
+import { Inicial, Farmacia, menuA, Supermercados, Diversos, Ferragens } from "./view/";
 
 function HomeScreen() {
   return (
@@ -17,16 +17,19 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-          name="Home"
-          component={Home}
+          name="Inicial"
+          component={Inicial}
           options={{
             title: "Bem vindo",
             headerTintColor: "black",
             headerTitleAlign: "center",
           }}
         />
-        <Stack.Screen name="Login" component={Login} />
+        <Stack.Screen name="menuA" component={menuA} />
+        <Stack.Screen name="Diversos" component={Diversos} />
         <Stack.Screen name="Farmacia" component={Farmacia} />
+        <Stack.Screen name="Ferragens" component={Ferragens} />
+        <Stack.Screen name="Supermercados" component={Supermercados} />
       </Stack.Navigator>
     </NavigationContainer>
   );

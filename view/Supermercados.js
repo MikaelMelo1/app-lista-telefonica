@@ -1,6 +1,5 @@
 import React from "react";
-import { Text, View, Button, Image, StyleSheet, Linking, TouchableOpacity } from "react-native";
-import { ScrollView } from "react-native-gesture-handler";
+import { Text, View, Button, Image, StyleSheet, Linking, TouchableOpacity, ScrollView } from "react-native";
 
 //const farmacia1 = 'https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1'
 const styles = StyleSheet.create({
