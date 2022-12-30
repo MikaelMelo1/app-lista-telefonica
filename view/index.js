@@ -5,5 +5,4 @@ import Diversos from "./Diversos";
 import Ferragens from "./Ferragens";
 import Supermercados from "./Supermercados";
 
-
 export { Inicial, menu, Farmacia, Diversos, Ferragens, Supermercados };
