@@ -1,6 +1,6 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { Inicial, Farmacia, menuA, Supermercados, Diversos, Ferragens } from "./view/";
+import { Inicial, Farmacia, menu, Supermercados, Diversos, Ferragens } from "./view/";
 
 function HomeScreen() {
   return (
@@ -20,16 +20,26 @@ function App() {
           name="Inicial"
           component={Inicial}
           options={{
-            title: "Bem vindo",
+            title: "",
             headerTintColor: "black",
             headerTitleAlign: "center",
           }}
         />
-        <Stack.Screen name="menuA" component={menuA} />
-        <Stack.Screen name="Diversos" component={Diversos} />
-        <Stack.Screen name="Farmacia" component={Farmacia} />
-        <Stack.Screen name="Ferragens" component={Ferragens} />
-        <Stack.Screen name="Supermercados" component={Supermercados} />
+        <Stack.Screen name="menu" component={menu} options={{
+          title: "",
+        }} />
+        <Stack.Screen name="Diversos" component={Diversos} options={{
+          title: "",
+        }} />
+        <Stack.Screen name="Farmacia" component={Farmacia} options={{
+          title: "",
+        }} />
+        <Stack.Screen name="Ferragens" component={Ferragens} options={{
+          title: "",
+        }} />
+        <Stack.Screen name="Supermercados" component={Supermercados} options={{
+          title: "",
+        }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

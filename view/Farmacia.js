@@ -133,10 +133,7 @@ export default function Farmacia(props) {
           margin: 10,
           width: 160,
         }}>
-          <Button style={{}}
-            title="Menu"
-            onPress={() => props.navigation.navigate("Login")}
-          />
+
         </View>
 
 

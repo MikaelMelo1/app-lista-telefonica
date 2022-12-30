@@ -38,7 +38,7 @@ export default function Inicial(props) {
       <View style={styles.botao}>
         <Button
           style={styles.button}
-          title="Click aqui para ir para o menu" onPress={() => props.navigation.navigate("menuA")}
+          title="Click aqui para ir para o menu" onPress={() => props.navigation.navigate("menu")}
         />
       </View>
     </View>

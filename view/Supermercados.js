@@ -43,7 +43,7 @@ export default function Farmacia(props) {
   return (
     <ScrollView>
       <View style={styles.container}>
-        <Text style={{ fontSize: 25, fontWeight: 'bold', textAlign: 'center', marginTop: 15, marginBottom: 15 }}>Farmácias</Text>
+        <Text style={{ fontSize: 25, fontWeight: 'bold', textAlign: 'center', marginTop: 15, marginBottom: 15 }}>Supermercados</Text>
         <View style={styles.card}>
           <Image
             style={styles.image}
@@ -132,10 +132,7 @@ export default function Farmacia(props) {
           margin: 10,
           width: 160,
         }}>
-          <Button style={{}}
-            title="Menu"
-            onPress={() => props.navigation.navigate("Login")}
-          />
+
         </View>
 
 

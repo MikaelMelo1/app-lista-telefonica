@@ -1,9 +1,9 @@
 import Inicial from "./Inicial";
-import menuA from "./menuA";
+import menu from "./menu";
 import Farmacia from "./Farmacia";
 import Diversos from "./Diversos";
 import Ferragens from "./Ferragens";
 import Supermercados from "./Supermercados";
 
 
-export { Inicial, menuA, Farmacia, Diversos, Ferragens, Supermercados };
+export { Inicial, menu, Farmacia, Diversos, Ferragens, Supermercados };
