@@ -43,7 +43,6 @@ export default function Farmacia(props) {
   return (
     <ScrollView>
       <View style={styles.container}>
-        <Text style={{ fontSize: 25, fontWeight: 'bold', textAlign: 'center', marginTop: 15, marginBottom: 15 }}>Supermercados</Text>
         <View style={styles.card}>
           <Image
             style={styles.image}

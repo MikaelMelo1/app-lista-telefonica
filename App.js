@@ -28,8 +28,9 @@ function App() {
           component={Inicial}
           options={{
             title: "",
-            headerTintColor: "black",
-            headerTitleAlign: "center",
+            headerStyle: {
+              backgroundColor: 'black',
+            }
           }}
         />
         <Stack.Screen
