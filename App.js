@@ -29,7 +29,7 @@ function App() {
           options={{
             title: "",
             headerStyle: {
-              backgroundColor: 'black',
+              backgroundColor: 'white',
             }
           }}
         />

@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View, Button, StyleSheet, TouchableOpacity, ImageBackground } from "react-native";
+import { Text, View, Button, StyleSheet, TouchableOpacity, ImageBackground, Image } from "react-native";
 
 const img = 'cachoeira-do-sul.jpg'
 const styles = StyleSheet.create({
@@ -40,8 +40,10 @@ const styles = StyleSheet.create({
 export default function Inicial(props) {
   return (
     <View style={styles.container}>
+
       <ImageBackground
-        source={require('./cachoeira-do-sul.jpg')} style={styles.imageBackground}>
+        source={require('./fundo.jpg')} style={styles.imageBackground}>
+        <Image source={require('./icone-inicial.png')} style={{ height: 200, width: 200, marginBottom: 30 }}></Image>
         <Text style={styles.titulo}>
           Bem Vindo ao Agenda <Text style={styles.span}>Cachoeira do Sul</Text>
         </Text>
@@ -51,11 +53,12 @@ export default function Inicial(props) {
         <View style={styles.botao}>
           <TouchableOpacity onPress={() => props.navigation.navigate("menu")}>
             <Text style={{
+
               color: 'black', padding: 12, backgroundColor: 'white'
-            }} >Click aqui para ir para o Menu</Text>
+            }} >INICIAR</Text>
           </TouchableOpacity>
         </View>
-      </ImageBackground>
-    </View>
+      </ImageBackground >
+    </View >
   );
 }
