@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Text,
-  View,
-  StyleSheet,
-  ScrollView,
-  Image,
-  TouchableOpacity,
-} from "react-native";
+import { Text, View, StyleSheet, ScrollView, Image, TouchableOpacity } from "react-native";
 
 const styles = StyleSheet.create({
   container: {
@@ -65,6 +58,7 @@ export default function Menu(props) {
               alignItems: "center",
               height: 200,
               width: 500,
+
             }}
           >
             <Image source={require("./ferragem.png")} style={styles.image} />

@@ -1,7 +1,6 @@
 import React from "react";
 import { Text, View, Button, StyleSheet, TouchableOpacity, ImageBackground, Image } from "react-native";
 
-const img = 'cachoeira-do-sul.jpg'
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -53,12 +52,13 @@ export default function Inicial(props) {
         <View style={styles.botao}>
           <TouchableOpacity onPress={() => props.navigation.navigate("menu")}>
             <Text style={{
-
+              elevation: 10,
               color: 'black', padding: 12, backgroundColor: 'white'
             }} >INICIAR</Text>
           </TouchableOpacity>
         </View>
       </ImageBackground >
+
     </View >
   );
 }
