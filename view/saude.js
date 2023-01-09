@@ -55,7 +55,7 @@ export default function Farmacia(props) {
           <Image
             style={styles.image}
             source={{
-              uri: "https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1",
+              uri: "https://www.cachoeiradosul.rs.gov.br/fotos/25a653e4c2ec516e1e021f527140dd87.jpg",
             }}
           />
           <Text
@@ -66,20 +66,21 @@ export default function Farmacia(props) {
               fontWeight: "bold",
             }}
           >
-            Farmacia Matriz
+            Hospital da Liga
           </Text>
-
-          <Text style={styles.texto}>Rua Juvencio Cardoso da Cunha</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:1234567890")}>
+          <Text style={styles.texto}> R. Milan Krás - Barcelos, Cachoeira do Sul - RS</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:(51) 3724-6004")}>
             <Text style={styles.discagem}>Ligar para a Farmácia</Text>
           </TouchableOpacity>
         </View>
+
+
 
         <View style={styles.card}>
           <Image
             style={styles.image}
             source={{
-              uri: "https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1",
+              uri: "https://ocorreio.com.br/wp-content/uploads/2020/07/hospital.jpg",
             }}
           />
           <Text
@@ -90,11 +91,11 @@ export default function Farmacia(props) {
               fontWeight: "bold",
             }}
           >
-            Farmacia Matriz
+            Hospital de Cariedade e Beneficência
           </Text>
 
-          <Text style={styles.texto}>Rua Juvencio Cardoso da Cunha</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:1234567890")}>
+          <Text style={styles.texto}> Rua Saldanha Marinho, 48 - Centro, Cachoeira do Sul - RS</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:(51) 3722-0800")}>
             <Text style={styles.discagem}>Ligar para a Farmácia</Text>
           </TouchableOpacity>
         </View>

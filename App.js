@@ -6,7 +6,7 @@ import {
   menu,
   Supermercados,
   Diversos,
-  Ferragens,
+  saude,
 } from "./view/";
 
 function HomeScreen() {
@@ -55,10 +55,10 @@ function App() {
           }}
         />
         <Stack.Screen
-          name="Ferragens"
-          component={Ferragens}
+          name="saude"
+          component={saude}
           options={{
-            title: "Ferragens",
+            title: "Saúde",
           }}
         />
         <Stack.Screen

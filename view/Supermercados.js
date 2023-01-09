@@ -42,19 +42,20 @@ const styles = StyleSheet.create({
 export default function Farmacia(props) {
   return (
     <ScrollView>
+
       <View style={styles.container}>
         <View style={styles.card}>
           <Image
             style={styles.image}
             source={{
-              uri: "https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1",
+              uri: "https://ocorreio.com.br/wp-content/uploads/2019/03/superm2.jpg",
             }}
           />
-          <Text style={{ fontSize: 20, color: 'white', marginTop: 10, fontWeight: 'bold' }}>Farmacia Matriz</Text>
+          <Text style={{ fontSize: 20, color: 'white', marginTop: 10, fontWeight: 'bold' }}>Super Max</Text>
 
-          <Text style={styles.texto}>Rua Juvencio Cardoso da Cunha</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:1234567890")}>
-            <Text style={styles.discagem}>Ligar para a Farmácia</Text>
+          <Text style={styles.texto}>Av. Brasil, 3368 - Marina, Cachoeira do Sul - RS</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:(51) 3722-4183")}>
+            <Text style={styles.discagem}>Ligar para o mercado</Text>
           </TouchableOpacity>
         </View>
 
@@ -63,31 +64,14 @@ export default function Farmacia(props) {
           <Image
             style={styles.image}
             source={{
-              uri: "https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1",
+              uri: "https://redesuper.com/wp-content/uploads/2021/11/cropped-logo-3d-1.png",
             }}
           />
-          <Text style={{ fontSize: 20, color: 'white', marginTop: 10, fontWeight: 'bold' }}>Farmacia Matriz</Text>
+          <Text style={{ fontSize: 20, color: 'white', marginTop: 10, fontWeight: 'bold' }}>Rede Super</Text>
 
-          <Text style={styles.texto}>Rua Juvencio Cardoso da Cunha</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:1234567890")}>
-            <Text style={styles.discagem}>Ligar para a Farmácia</Text>
-          </TouchableOpacity>
-        </View>
-
-
-
-        <View style={styles.card}>
-          <Image
-            style={styles.image}
-            source={{
-              uri: "https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1",
-            }}
-          />
-          <Text style={{ fontSize: 20, color: 'white', marginTop: 10, fontWeight: 'bold' }}>Farmacia Matriz</Text>
-
-          <Text style={styles.texto}>Rua Juvencio Cardoso da Cunha</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:1234567890")}>
-            <Text style={styles.discagem}>Ligar para a Farmácia</Text>
+          <Text style={styles.texto}>R. Ernesto Alves, 888 - Centro, Cachoeira do Sul - RS</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:(51) 3724-1701")}>
+            <Text style={styles.discagem}>Ligar para o mercado</Text>
           </TouchableOpacity>
         </View>
 
@@ -97,14 +81,26 @@ export default function Farmacia(props) {
           <Image
             style={styles.image}
             source={{
-              uri: "https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1",
+              uri: "https://adm.gvcfm.com.br/arquivos/blog/e55265e97ba3a975fd258bba14fb96d8-gvc-fm.JPG",
             }}
           />
-          <Text style={{ fontSize: 20, color: 'white', marginTop: 10, fontWeight: 'bold' }}>Farmacia Matriz</Text>
+          <Text style={{ fontSize: 20, color: 'white', marginTop: 10, fontWeight: 'bold' }}>Rede Vivo</Text>
 
-          <Text style={styles.texto}>Rua Juvencio Cardoso da Cunha</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:1234567890")}>
-            <Text style={styles.discagem}>Ligar para a Farmácia</Text>
+          <Text style={styles.texto}>R. Otto Mernak, 253 - Centro, Cachoeira do Sul - RS</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:(51) 3723-2525")}>
+            <Text style={styles.discagem}>Ligar para o mercado</Text>
+          </TouchableOpacity>
+        </View>
+
+
+
+        <View style={styles.card}>
+          <Image source={require("./tischiler.png")} style={styles.image} />
+          <Text style={{ fontSize: 20, color: 'white', marginTop: 10, fontWeight: 'bold' }}>Tischler - Filial 01</Text>
+
+          <Text style={styles.texto}> R. Sete de Setembro, 901 - Centro, Cachoeira do Sul - RS</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:(51) 3722-2191")}>
+            <Text style={styles.discagem}>Ligar para o mercado</Text>
           </TouchableOpacity>
         </View>
 
@@ -112,17 +108,27 @@ export default function Farmacia(props) {
 
 
         <View style={styles.card}>
-          <Image
-            style={styles.image}
-            source={{
-              uri: "https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1",
-            }}
-          />
-          <Text style={{ fontSize: 20, color: 'white', marginTop: 10, fontWeight: 'bold' }}>Farmacia Matriz</Text>
+          <Image source={require("./tischiler.png")} style={styles.image} />
 
-          <Text style={styles.texto}>Rua Juvencio Cardoso da Cunha</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:1234567890")}>
-            <Text style={styles.discagem}>Ligar para a Farmácia</Text>
+          <Text style={{ fontSize: 20, color: 'white', marginTop: 10, fontWeight: 'bold' }}>Tischler - Filial 02</Text>
+
+          <Text style={styles.texto}>Av. Júlio de Castilhos, 413 - Centro, Cachoeira do Sul - RS</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:(51) 3722-4433")}>
+            <Text style={styles.discagem}>Ligar para o mercado</Text>
+          </TouchableOpacity>
+        </View>
+
+
+
+
+        <View style={styles.card}>
+          <Image source={require("./tischiler.png")} style={styles.image} />
+
+          <Text style={{ fontSize: 20, color: 'white', marginTop: 10, fontWeight: 'bold' }}>Tischler - Filial 05</Text>
+
+          <Text style={styles.texto}>Av. Brasil, 491 - Centro, Cachoeira do Sul - RS</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:(51) 3722-2096")}>
+            <Text style={styles.discagem}>Ligar para o mercado</Text>
           </TouchableOpacity>
         </View>
 

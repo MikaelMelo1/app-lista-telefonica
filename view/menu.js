@@ -49,20 +49,20 @@ export default function Menu(props) {
         </View>
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => props.navigation.navigate("Ferragens")}>
+      <TouchableOpacity onPress={() => props.navigation.navigate("saude")}>
         <View style={styles.container}>
           <View
             style={{
               justifyContent: "center",
-              backgroundColor: "#FF7062",
+              backgroundColor: "#90C022",
               alignItems: "center",
               height: 200,
               width: 500,
 
             }}
           >
-            <Image source={require("./ferragem.png")} style={styles.image} />
-            <Text style={styles.text}>Ferragens</Text>
+            <Image source={require("./medico.png")} style={styles.image} />
+            <Text style={styles.text}>Saúde</Text>
           </View>
         </View>
       </TouchableOpacity>
@@ -72,7 +72,7 @@ export default function Menu(props) {
           <View
             style={{
               justifyContent: "center",
-              backgroundColor: "#90C022",
+              backgroundColor: "#FF7062",
               alignItems: "center",
               height: 200,
               width: 500,

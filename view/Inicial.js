@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     resizeMode: "cover",
     justifyContent: "center",
     alignItems: "center",
-    width: 480,
+    width: 483,
 
 
   },
