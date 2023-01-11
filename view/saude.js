@@ -70,7 +70,7 @@ export default function Farmacia(props) {
           </Text>
           <Text style={styles.texto}> R. Milan Krás - Barcelos, Cachoeira do Sul - RS</Text>
           <TouchableOpacity onPress={() => Linking.openURL("tel:(51) 3724-6004")}>
-            <Text style={styles.discagem}>Ligar para a Farmácia</Text>
+            <Text style={styles.discagem}>LIGAR PARA O HOSPITAL</Text>
           </TouchableOpacity>
         </View>
 
@@ -96,7 +96,7 @@ export default function Farmacia(props) {
 
           <Text style={styles.texto}> Rua Saldanha Marinho, 48 - Centro, Cachoeira do Sul - RS</Text>
           <TouchableOpacity onPress={() => Linking.openURL("tel:(51) 3722-0800")}>
-            <Text style={styles.discagem}>Ligar para a Farmácia</Text>
+            <Text style={styles.discagem}>LIGAR PARA O HOSPITAL</Text>
           </TouchableOpacity>
         </View>
 
@@ -104,7 +104,7 @@ export default function Farmacia(props) {
           <Image
             style={styles.image}
             source={{
-              uri: "https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1",
+              uri: "https://ocorreio.com.br/wp-content/uploads/2022/06/UPA-fachada.jpg",
             }}
           />
           <Text
@@ -115,12 +115,12 @@ export default function Farmacia(props) {
               fontWeight: "bold",
             }}
           >
-            Farmacia Matriz
+            UPA
           </Text>
 
-          <Text style={styles.texto}>Rua Juvencio Cardoso da Cunha</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:1234567890")}>
-            <Text style={styles.discagem}>Ligar para a Farmácia</Text>
+          <Text style={styles.texto}>Rua Avenidade Brasil, 2300, Oliveira -Cachoeira do Sul - RS</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:(51) 3722-0888")}>
+            <Text style={styles.discagem}>Ligar para A UPA</Text>
           </TouchableOpacity>
         </View>
 

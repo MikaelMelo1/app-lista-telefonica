@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View, Button, StyleSheet, TouchableOpacity, ImageBackground, Image } from "react-native";
+import { Text, View, StyleSheet, TouchableOpacity, ImageBackground, Image } from "react-native";
 
 const styles = StyleSheet.create({
   container: {
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     resizeMode: "cover",
     justifyContent: "center",
     alignItems: "center",
-    width: 483,
+    width: 600,
 
 
   },
@@ -47,7 +47,7 @@ export default function Inicial(props) {
           Bem Vindo ao Agenda <Text style={styles.span}>Cachoeira do Sul</Text>
         </Text>
         <Text style={styles.subtitulo}>
-          Aqui você irá encontrar os mais diversos números e atualizados de Cachoeira do Sul
+
         </Text>
         <View style={styles.botao}>
           <TouchableOpacity onPress={() => props.navigation.navigate("menu")}>
