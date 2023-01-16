@@ -68,13 +68,13 @@ export default function Farmacia(props) {
           >
             Hospital da Liga
           </Text>
-          <Text style={styles.texto}> R. Milan Krás - Barcelos, Cachoeira do Sul - RS</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:(51) 3724-6004")}>
+          <Text style={styles.texto}> R. Milan Krás - Barcelos</Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(51) 3724-6004")}
+          >
             <Text style={styles.discagem}>LIGAR PARA O HOSPITAL</Text>
           </TouchableOpacity>
         </View>
-
-
 
         <View style={styles.card}>
           <Image
@@ -94,8 +94,10 @@ export default function Farmacia(props) {
             Hospital de Cariedade e Beneficência
           </Text>
 
-          <Text style={styles.texto}> Rua Saldanha Marinho, 48 - Centro, Cachoeira do Sul - RS</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:(51) 3722-0800")}>
+          <Text style={styles.texto}> Rua Saldanha Marinho, 48 - Centro</Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(51) 3722-0800")}
+          >
             <Text style={styles.discagem}>LIGAR PARA O HOSPITAL</Text>
           </TouchableOpacity>
         </View>
@@ -118,19 +120,18 @@ export default function Farmacia(props) {
             UPA
           </Text>
 
-          <Text style={styles.texto}>Rua Avenidade Brasil, 2300, Oliveira -Cachoeira do Sul - RS</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:(51) 3722-0888")}>
+          <Text style={styles.texto}>
+            Rua Avenidade Brasil, 2300 - Oliveira
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(51) 3722-0888")}
+          >
             <Text style={styles.discagem}>Ligar para A UPA</Text>
           </TouchableOpacity>
         </View>
 
         <View style={styles.card}>
-          <Image
-            style={styles.image}
-            source={{
-              uri: "https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1",
-            }}
-          />
+          <Image source={require("./sus-simbolo.png")} style={styles.image} />
           <Text
             style={{
               fontSize: 20,
@@ -139,22 +140,17 @@ export default function Farmacia(props) {
               fontWeight: "bold",
             }}
           >
-            Farmacia Matriz
+            Posto de Saúde - US1
           </Text>
 
-          <Text style={styles.texto}>Rua Juvencio Cardoso da Cunha</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:1234567890")}>
-            <Text style={styles.discagem}>Ligar para a Farmácia</Text>
+          <Text style={styles.texto}>Rua Gal Portinho, 1785 - Centro</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:3723-1364")}>
+            <Text style={styles.discagem}>Ligar para o posto</Text>
           </TouchableOpacity>
         </View>
 
         <View style={styles.card}>
-          <Image
-            style={styles.image}
-            source={{
-              uri: "https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1",
-            }}
-          />
+          <Image source={require("./sus-simbolo.png")} style={styles.image} />
           <Text
             style={{
               fontSize: 20,
@@ -163,26 +159,71 @@ export default function Farmacia(props) {
               fontWeight: "bold",
             }}
           >
-            Farmacia Matriz
+            Posto de Saúde - US4
           </Text>
-
-          <Text style={styles.texto}>Rua Juvencio Cardoso da Cunha</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:1234567890")}>
-            <Text style={styles.discagem}>Ligar para a Farmácia</Text>
+          <Text style={styles.texto}>
+            Rua Leopoldo Souza, 1448 - Centro Social Urbano
+          </Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:37246071")}>
+            <Text style={styles.discagem}>Ligar para o posto</Text>
           </TouchableOpacity>
         </View>
 
-        <View
-          style={{
-            margin: 10,
-            width: 160,
-          }}
-        >
-          <Button
-            style={{}}
-            title="Menu"
-            onPress={() => props.navigation.navigate("Login")}
-          />
+        <View style={styles.card}>
+          <Image source={require("./sus-simbolo.png")} style={styles.image} />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Posto de Saúde - US14
+          </Text>
+
+          <Text style={styles.texto}>Rua Av dos Imigrantes - Marina</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:37232754")}>
+            <Text style={styles.discagem}>Ligar o posto</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.card}>
+          <Image source={require("./sus-simbolo.png")} style={styles.image} />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Posto de Saúde - ESF1
+          </Text>
+          <Text style={styles.texto}>
+            Rua Quadra 12, Casa 10 e 11 - Promorar
+          </Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:37246072")}>
+            <Text style={styles.discagem}>Ligar para o posto</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.card}>
+          <Image source={require("./sus-simbolo.png")} style={styles.image} />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Posto de Saúde - CAPS II
+          </Text>
+          <Text style={styles.texto}>Rua Marechal Floriano, 207</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:37246112")}>
+            <Text style={styles.discagem}>Ligar para o posto</Text>
+          </TouchableOpacity>
         </View>
       </View>
     </ScrollView>

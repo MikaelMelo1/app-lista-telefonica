@@ -51,12 +51,7 @@ export default function Farmacia(props) {
     <ScrollView>
       <View style={styles.container}>
         <View style={styles.card}>
-          <Image
-            style={styles.image}
-            source={{
-              uri: "https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1",
-            }}
-          />
+          <Image source={require("./saojoao-7.jpg")} style={styles.image} />
           <Text
             style={{
               fontSize: 20,
@@ -65,10 +60,10 @@ export default function Farmacia(props) {
               fontWeight: "bold",
             }}
           >
-            Farmacia Matriz
+            Farmácia São João
           </Text>
-          <Text style={styles.texto}>Rua Juvencio Cardoso da Cunha</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:1234567890")}>
+          <Text style={styles.texto}>Rua Sete de Setembro, 1265 - Centro</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:37227070")}>
             <Text style={styles.discagem}>Ligar para a Farmácia</Text>
           </TouchableOpacity>
         </View>

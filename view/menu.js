@@ -1,11 +1,18 @@
 import React from "react";
-import { Text, View, StyleSheet, ScrollView, Image, TouchableOpacity } from "react-native";
+import {
+  Text,
+  View,
+  StyleSheet,
+  ScrollView,
+  Image,
+  TouchableOpacity,
+} from "react-native";
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignContent: 'center',
+    justifyContent: "center",
+    alignContent: "center",
     backgroundColor: "black",
   },
   /*imageContainer: {
@@ -40,12 +47,11 @@ export default function Menu(props) {
             style={{
               justifyContent: "center",
               alignContent: "center",
-              alignItems: 'center',
+              alignItems: "center",
               backgroundColor: "#D97DFC",
               textAlign: "center",
               alignItems: "center",
               height: 200,
-              width: 400,
             }}
           >
             <Image source={require("./mercado.png")} style={styles.image} />
@@ -62,8 +68,6 @@ export default function Menu(props) {
               backgroundColor: "#90C022",
               alignItems: "center",
               height: 200,
-              width: 400,
-
             }}
           >
             <Image source={require("./medico.png")} style={styles.image} />
@@ -79,8 +83,8 @@ export default function Menu(props) {
               justifyContent: "center",
               backgroundColor: "#FF7062",
               alignItems: "center",
-              height: 400,
-              height: 200
+
+              height: 200,
             }}
           >
             <Image source={require("./farmacia.png")} style={styles.image} />
@@ -97,7 +101,6 @@ export default function Menu(props) {
               backgroundColor: "#14A2FF",
               alignItems: "center",
               height: 200,
-              width: 400,
             }}
           >
             <Image source={require("./diversos.png")} style={styles.image} />
