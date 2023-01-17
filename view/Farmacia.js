@@ -51,7 +51,10 @@ export default function Farmacia(props) {
     <ScrollView>
       <View style={styles.container}>
         <View style={styles.card}>
-          <Image source={require("./saojoao-7.jpg")} style={styles.image} />
+          <Image
+            source={require("./farmacia/saojoao-7.jpg")}
+            style={styles.image}
+          />
           <Text
             style={{
               fontSize: 20,
@@ -70,10 +73,8 @@ export default function Farmacia(props) {
 
         <View style={styles.card}>
           <Image
+            source={require("./farmacia/ultramed-7.jpg")}
             style={styles.image}
-            source={{
-              uri: "https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1",
-            }}
           />
           <Text
             style={{
@@ -83,21 +84,19 @@ export default function Farmacia(props) {
               fontWeight: "bold",
             }}
           >
-            Farmacia Matriz
+            Farmacia UltraMed Popular
           </Text>
 
-          <Text style={styles.texto}>Rua Juvencio Cardoso da Cunha</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:1234567890")}>
+          <Text style={styles.texto}>Rua Sete de Setembro, 1001 - Centro</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:35306037")}>
             <Text style={styles.discagem}>Ligar para a Farmácia</Text>
           </TouchableOpacity>
         </View>
 
         <View style={styles.card}>
           <Image
+            source={require("./farmacia/panvel.jpg")}
             style={styles.image}
-            source={{
-              uri: "https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1",
-            }}
           />
           <Text
             style={{
@@ -107,21 +106,21 @@ export default function Farmacia(props) {
               fontWeight: "bold",
             }}
           >
-            Farmacia Matriz
+            Farmacia Panvel
           </Text>
 
-          <Text style={styles.texto}>Rua Juvencio Cardoso da Cunha</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:1234567890")}>
+          <Text style={styles.texto}>Rua Sete de Setembro, 1109 - Centro</Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:0800 642 9001")}
+          >
             <Text style={styles.discagem}>Ligar para a Farmácia</Text>
           </TouchableOpacity>
         </View>
 
         <View style={styles.card}>
           <Image
+            source={require("./farmacia/brasilpopular.jpg")}
             style={styles.image}
-            source={{
-              uri: "https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1",
-            }}
           />
           <Text
             style={{
@@ -131,21 +130,19 @@ export default function Farmacia(props) {
               fontWeight: "bold",
             }}
           >
-            Farmacia Matriz
+            Farmacia Brasil Popular
           </Text>
 
-          <Text style={styles.texto}>Rua Juvencio Cardoso da Cunha</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:1234567890")}>
+          <Text style={styles.texto}>Rua Sete de Setembro, 1402 - Centro</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:20230387")}>
             <Text style={styles.discagem}>Ligar para a Farmácia</Text>
           </TouchableOpacity>
         </View>
 
         <View style={styles.card}>
           <Image
+            source={require("./farmacia/saojoao-julio.jpg")}
             style={styles.image}
-            source={{
-              uri: "https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1",
-            }}
           />
           <Text
             style={{
@@ -155,11 +152,42 @@ export default function Farmacia(props) {
               fontWeight: "bold",
             }}
           >
-            Farmacia Matriz
+            Farmacia São João
           </Text>
 
-          <Text style={styles.texto}>Rua Juvencio Cardoso da Cunha</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:1234567890")}>
+          <Text style={styles.texto}>
+            Rua Av. Júlio de Castilhos, 683 - Centro
+          </Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:37235940")}>
+            <Text style={styles.discagem}>Ligar para a Farmácia</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View
+          style={{
+            margin: 10,
+            width: 160,
+          }}
+        ></View>
+
+        <View style={styles.card}>
+          <Image
+            source={require("./farmacia/drogaraia.jpg")}
+            style={styles.image}
+          />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Farmacia Droga Raia
+          </Text>
+
+          <Text style={styles.texto}>Rua Saldanha Marinho, 1350 - Centro</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:980405382")}>
             <Text style={styles.discagem}>Ligar para a Farmácia</Text>
           </TouchableOpacity>
         </View>
