@@ -53,10 +53,8 @@ export default function Farmacia(props) {
       <View style={styles.container}>
         <View style={styles.card}>
           <Image
+            source={require("./saude/hospital-liga.jpg")}
             style={styles.image}
-            source={{
-              uri: "https://www.cachoeiradosul.rs.gov.br/fotos/25a653e4c2ec516e1e021f527140dd87.jpg",
-            }}
           />
           <Text
             style={{
@@ -77,12 +75,7 @@ export default function Farmacia(props) {
         </View>
 
         <View style={styles.card}>
-          <Image
-            style={styles.image}
-            source={{
-              uri: "https://ocorreio.com.br/wp-content/uploads/2020/07/hospital.jpg",
-            }}
-          />
+          <Image source={require("./saude/hcb.jpg")} style={styles.image} />
           <Text
             style={{
               fontSize: 20,
@@ -103,12 +96,7 @@ export default function Farmacia(props) {
         </View>
 
         <View style={styles.card}>
-          <Image
-            style={styles.image}
-            source={{
-              uri: "https://ocorreio.com.br/wp-content/uploads/2022/06/UPA-fachada.jpg",
-            }}
-          />
+          <Image style={styles.image} source={require("./saude/upa.jpg")} />
           <Text
             style={{
               fontSize: 20,
@@ -131,7 +119,7 @@ export default function Farmacia(props) {
         </View>
 
         <View style={styles.card}>
-          <Image source={require("./sus-simbolo.png")} style={styles.image} />
+          <Image source={require("./saude/us1.jpeg")} style={styles.image} />
           <Text
             style={{
               fontSize: 20,
@@ -150,7 +138,7 @@ export default function Farmacia(props) {
         </View>
 
         <View style={styles.card}>
-          <Image source={require("./sus-simbolo.png")} style={styles.image} />
+          <Image source={require("./saude/us4.jpg")} style={styles.image} />
           <Text
             style={{
               fontSize: 20,
@@ -170,7 +158,7 @@ export default function Farmacia(props) {
         </View>
 
         <View style={styles.card}>
-          <Image source={require("./sus-simbolo.png")} style={styles.image} />
+          <Image source={require("./saude/us14.jpg")} style={styles.image} />
           <Text
             style={{
               fontSize: 20,
@@ -189,7 +177,10 @@ export default function Farmacia(props) {
         </View>
 
         <View style={styles.card}>
-          <Image source={require("./sus-simbolo.png")} style={styles.image} />
+          <Image
+            source={require("./saude/sus-simbolo.png")}
+            style={styles.image}
+          />
           <Text
             style={{
               fontSize: 20,
@@ -209,7 +200,7 @@ export default function Farmacia(props) {
         </View>
 
         <View style={styles.card}>
-          <Image source={require("./sus-simbolo.png")} style={styles.image} />
+          <Image source={require("./saude/caps2.jpg")} style={styles.image} />
           <Text
             style={{
               fontSize: 20,

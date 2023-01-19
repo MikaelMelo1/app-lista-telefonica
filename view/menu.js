@@ -54,7 +54,10 @@ export default function Menu(props) {
               height: 200,
             }}
           >
-            <Image source={require("./mercado.png")} style={styles.image} />
+            <Image
+              source={require("./img-menu/mercado.png")}
+              style={styles.image}
+            />
             <Text style={styles.text}>Mercado</Text>
           </View>
         </View>
@@ -70,7 +73,10 @@ export default function Menu(props) {
               height: 200,
             }}
           >
-            <Image source={require("./medico.png")} style={styles.image} />
+            <Image
+              source={require("./img-menu/medico.png")}
+              style={styles.image}
+            />
             <Text style={styles.text}>Saúde</Text>
           </View>
         </View>
@@ -87,7 +93,10 @@ export default function Menu(props) {
               height: 200,
             }}
           >
-            <Image source={require("./farmacia.png")} style={styles.image} />
+            <Image
+              source={require("./img-menu/farmacia.png")}
+              style={styles.image}
+            />
             <Text style={styles.text}>Farmácia</Text>
           </View>
         </View>
@@ -103,7 +112,10 @@ export default function Menu(props) {
               height: 200,
             }}
           >
-            <Image source={require("./diversos.png")} style={styles.image} />
+            <Image
+              source={require("./img-menu/diversos.png")}
+              style={styles.image}
+            />
             <Text style={styles.text}>Diversos</Text>
           </View>
         </View>

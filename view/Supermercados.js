@@ -53,10 +53,8 @@ export default function Farmacia(props) {
       <View style={styles.container}>
         <View style={styles.card}>
           <Image
+            source={require("./mercado/supermax.jpg")}
             style={styles.image}
-            source={{
-              uri: "https://ocorreio.com.br/wp-content/uploads/2019/03/superm2.jpg",
-            }}
           />
           <Text
             style={{
@@ -78,7 +76,10 @@ export default function Farmacia(props) {
         </View>
 
         <View style={styles.card}>
-          <Image source={require("./redesuper.jpg")} style={styles.image} />
+          <Image
+            source={require("./mercado/redesuper.jpg")}
+            style={styles.image}
+          />
           <Text
             style={{
               fontSize: 20,
@@ -100,10 +101,8 @@ export default function Farmacia(props) {
 
         <View style={styles.card}>
           <Image
+            source={require("./mercado/redevivo.jpg")}
             style={styles.image}
-            source={{
-              uri: "https://adm.gvcfm.com.br/arquivos/blog/e55265e97ba3a975fd258bba14fb96d8-gvc-fm.JPG",
-            }}
           />
           <Text
             style={{
@@ -125,7 +124,10 @@ export default function Farmacia(props) {
         </View>
 
         <View style={styles.card}>
-          <Image source={require("./tischiler.png")} style={styles.image} />
+          <Image
+            source={require("./mercado/tschiller-7.jpg")}
+            style={styles.image}
+          />
           <Text
             style={{
               fontSize: 20,
@@ -146,7 +148,10 @@ export default function Farmacia(props) {
         </View>
 
         <View style={styles.card}>
-          <Image source={require("./tischiler.png")} style={styles.image} />
+          <Image
+            source={require("./mercado/tschiller-julio.jpg")}
+            style={styles.image}
+          />
 
           <Text
             style={{
@@ -168,7 +173,10 @@ export default function Farmacia(props) {
         </View>
 
         <View style={styles.card}>
-          <Image source={require("./tischiler.png")} style={styles.image} />
+          <Image
+            source={require("./mercado/tschiller-avenida.jpg")}
+            style={styles.image}
+          />
 
           <Text
             style={{
@@ -197,7 +205,7 @@ export default function Farmacia(props) {
         ></View>
 
         <View style={styles.card}>
-          <Image source={require("./tischiler.png")} style={styles.image} />
+          <Image source={require("./mercado/imec.jpg")} style={styles.image} />
 
           <Text
             style={{
@@ -207,12 +215,12 @@ export default function Farmacia(props) {
               fontWeight: "bold",
             }}
           >
-            Tischler - Filial 02
+            Imec
           </Text>
 
-          <Text style={styles.texto}>Av. Júlio de Castilhos, 413 - Centro</Text>
+          <Text style={styles.texto}>Av. Júlio de Castilhos, 11 - Centro</Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(51) 3722-4433")}
+            onPress={() => Linking.openURL("tel:(51) 3723-6633")}
           >
             <Text style={styles.discagem}>Ligar para o mercado</Text>
           </TouchableOpacity>
