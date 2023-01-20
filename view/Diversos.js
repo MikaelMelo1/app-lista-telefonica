@@ -9,7 +9,6 @@ import {
   ScrollView,
 } from "react-native";
 
-//const farmacia1 = 'https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1'
 const styles = StyleSheet.create({
   container: {
     display: "flex",
@@ -53,9 +52,7 @@ export default function Diversos(props) {
         <View style={styles.card}>
           <Image
             style={styles.image}
-            source={{
-              uri: "https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1",
-            }}
+            source={require("./diversos/ferragem-sa.jpg")}
           />
           <Text
             style={{
@@ -65,21 +62,19 @@ export default function Diversos(props) {
               fontWeight: "bold",
             }}
           >
-            Farmacia Matriz
+            Ferragem Santo Antônio
           </Text>
 
-          <Text style={styles.texto}>Rua Juvencio Cardoso da Cunha</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:1234567890")}>
-            <Text style={styles.discagem}>Ligar para a Farmácia</Text>
+          <Text style={styles.texto}>Rua Saldanha Marinho, 1233 - Centro</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:3723-5939")}>
+            <Text style={styles.discagem}>ligar para a ferragem</Text>
           </TouchableOpacity>
         </View>
 
         <View style={styles.card}>
           <Image
             style={styles.image}
-            source={{
-              uri: "https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1",
-            }}
+            source={require("./diversos/pecuaria-guri.jpg")}
           />
           <Text
             style={{
@@ -89,21 +84,19 @@ export default function Diversos(props) {
               fontWeight: "bold",
             }}
           >
-            Farmacia Matriz
+            Agropecuária Guri
           </Text>
 
-          <Text style={styles.texto}>Rua Juvencio Cardoso da Cunha</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:1234567890")}>
-            <Text style={styles.discagem}>Ligar para a Farmácia</Text>
+          <Text style={styles.texto}>Rua Ramiro Barcelos - Centro</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:35306737")}>
+            <Text style={styles.discagem}>Ligar para a Agropecuária</Text>
           </TouchableOpacity>
         </View>
 
         <View style={styles.card}>
           <Image
             style={styles.image}
-            source={{
-              uri: "https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1",
-            }}
+            source={require("./diversos/dom-chico.jpg")}
           />
           <Text
             style={{
@@ -113,21 +106,19 @@ export default function Diversos(props) {
               fontWeight: "bold",
             }}
           >
-            Farmacia Matriz
+            Dom Chico Bar e Restaurante
           </Text>
 
-          <Text style={styles.texto}>Rua Juvencio Cardoso da Cunha</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:1234567890")}>
-            <Text style={styles.discagem}>Ligar para a Farmácia</Text>
+          <Text style={styles.texto}>Tv. Francisco Gama, 79 - Centro</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:51997384307")}>
+            <Text style={styles.discagem}>Ligar para o restaurante </Text>
           </TouchableOpacity>
         </View>
 
         <View style={styles.card}>
           <Image
             style={styles.image}
-            source={{
-              uri: "https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1",
-            }}
+            source={require("./diversos/restaurante-querencia.jpg")}
           />
           <Text
             style={{
@@ -137,21 +128,19 @@ export default function Diversos(props) {
               fontWeight: "bold",
             }}
           >
-            Farmacia Matriz
+            Churrascaria Querência
           </Text>
 
-          <Text style={styles.texto}>Rua Juvencio Cardoso da Cunha</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:1234567890")}>
-            <Text style={styles.discagem}>Ligar para a Farmácia</Text>
+          <Text style={styles.texto}>Av. Júlio de Castilhos, 217 - Centro</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:37222503")}>
+            <Text style={styles.discagem}>Ligar para a churrascaria</Text>
           </TouchableOpacity>
         </View>
 
         <View style={styles.card}>
           <Image
             style={styles.image}
-            source={{
-              uri: "https://i0.wp.com/ascoferj.com.br/wp-content/uploads/2022/04/sao-joao-Imbe-01.jpeg?fit=1280%2C960&ssl=1",
-            }}
+            source={require("./diversos/veterinaria-salomão.jpg")}
           />
           <Text
             style={{
@@ -161,12 +150,12 @@ export default function Diversos(props) {
               fontWeight: "bold",
             }}
           >
-            Farmacia Matriz
+            Clínica Veterinaria Dr. Edson Luiz Salomão
           </Text>
 
-          <Text style={styles.texto}>Rua Juvencio Cardoso da Cunha</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:1234567890")}>
-            <Text style={styles.discagem}>Ligar para a Farmácia</Text>
+          <Text style={styles.texto}>Rua Moron, 1376 - Centro</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("tel:37221807")}>
+            <Text style={styles.discagem}>Ligar para a Veterinária</Text>
           </TouchableOpacity>
         </View>
 
