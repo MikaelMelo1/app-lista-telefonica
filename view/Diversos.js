@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     marginTop: 1,
     marginBottom: 10,
     backgroundColor: "black",
-    borderRadius: 20,
+
   },
   image: {
     marginTop: 10,
@@ -158,13 +158,6 @@ export default function Diversos(props) {
             <Text style={styles.discagem}>Ligar para a Veterinária</Text>
           </TouchableOpacity>
         </View>
-
-        <View
-          style={{
-            margin: 10,
-            width: 160,
-          }}
-        ></View>
       </View>
     </ScrollView>
   );
