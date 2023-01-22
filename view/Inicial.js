@@ -5,9 +5,10 @@ import {
   StyleSheet,
   TouchableOpacity,
   ImageBackground,
-  Image
+  Image,
 } from "react-native";
-import { MaterialIcons } from 'react-native-vector-icons';
+import { MaterialIcons } from "react-native-vector-icons";
+import FlashMessage from "react-native-flash-message";
 
 const styles = StyleSheet.create({
   container: {
@@ -15,6 +16,7 @@ const styles = StyleSheet.create({
     backgroundColor: "black",
     alignItems: "center",
     justifyContent: "center",
+    alignSelf: "center",
   },
   titulo: {
     color: "white",
@@ -24,7 +26,6 @@ const styles = StyleSheet.create({
     color: "white",
     fontSize: 15,
     textAlign: "center",
-    marginTop: 20,
   },
   span: {
     color: "yellow",
@@ -40,16 +41,15 @@ const styles = StyleSheet.create({
     width: 600,
   },
   botaoF: {
-    position: 'absolute',
-    color: 'white',
-    fontSize: 20
+    position: "absolute",
+    color: "white",
+    fontSize: 20,
   },
   infor: {
-    position:"absolute",
+    position: "absolute",
     top: -500,
-    left: 150
-
-  }
+    left: 150,
+  },
 });
 
 export default function Inicial(props) {
@@ -60,8 +60,12 @@ export default function Inicial(props) {
         style={styles.imageBackground}
       >
         <Image
-          source={require("./img-menu/icone-inicial.png")}
-          style={{ height: 200, width: 200, marginBottom: 30 }}
+          source={require("./img-menu/icon.png")}
+          style={{
+            height: 250,
+            width: 200,
+            marginBottom: 2,
+          }}
         ></Image>
         <Text style={styles.titulo}>
           Bem Vindo ao Agenda <Text style={styles.span}>Cachoeira do Sul</Text>
@@ -73,19 +77,28 @@ export default function Inicial(props) {
               style={{
                 elevation: 10,
                 color: "black",
-                padding: 12,
+                padding: 20,
                 backgroundColor: "white",
+                textAlign: "center",
+                fontWeight: "bold",
               }}
             >
-              INICIAR
+              INICIAR AGENDA
             </Text>
           </TouchableOpacity>
         </View>
+        <FlashMessage icon="alarm" position="top" duration={3000} />
+
         <TouchableOpacity onPress={() => props.navigation.navigate("infor")}>
-      <View style={{padding:20}}>
-        <MaterialIcons style={styles.infor} name="info" size={38} color='white'></MaterialIcons>
-      </View>
-      </TouchableOpacity>
+          <View style={{ padding: 20 }}>
+            <MaterialIcons
+              style={styles.infor}
+              name="info"
+              size={38}
+              color="white"
+            ></MaterialIcons>
+          </View>
+        </TouchableOpacity>
       </ImageBackground>
     </View>
   );
