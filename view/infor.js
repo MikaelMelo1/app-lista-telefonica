@@ -61,7 +61,7 @@ export default function Inicial(props) {
 </Text>
 <Text style={styles.intro}>
           Se você tiver alguma dúvida ou sugestão, por favor, não hesite em entrar em contato comigo pelo linkedin <Text style={styles.link} onPress={() => Linking.openURL('https://www.linkedin.com/in/mikael-melo-095406218/')}>Mikael Melo </Text> 
-           ou pelo email <Text style={styles.link} onPress={() => Linking.openURL('malito: mikaelsilva1940@hotmail.com')}>mikaelsilva1940@hotmail.com</Text>
+           ou pelo email <Text style={styles.link} onPress={() => Linking.openURL('mailto: mikaelsilva1940@hotmail.com')}>mikaelsilva1940@hotmail.com</Text>
         </Text>
        
         <Text style={styles.version}>Versão 1.0.0</Text>
