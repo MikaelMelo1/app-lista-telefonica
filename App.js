@@ -7,6 +7,7 @@ import {
   Supermercados,
   Diversos,
   saude,
+  infor
 } from "./view/";
 
 function HomeScreen() {
@@ -66,6 +67,13 @@ function App() {
           component={Supermercados}
           options={{
             title: "Supermercados",
+          }}
+        />
+         <Stack.Screen
+          name="infor"
+          component={infor}
+          options={{
+            title: "Sobre",
           }}
         />
       </Stack.Navigator>

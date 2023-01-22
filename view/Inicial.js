@@ -5,8 +5,9 @@ import {
   StyleSheet,
   TouchableOpacity,
   ImageBackground,
-  Image,
+  Image
 } from "react-native";
+import { MaterialIcons } from 'react-native-vector-icons';
 
 const styles = StyleSheet.create({
   container: {
@@ -38,6 +39,17 @@ const styles = StyleSheet.create({
     alignItems: "center",
     width: 600,
   },
+  botaoF: {
+    position: 'absolute',
+    color: 'white',
+    fontSize: 20
+  },
+  infor: {
+    position:"absolute",
+    top: -500,
+    left: 150
+
+  }
 });
 
 export default function Inicial(props) {
@@ -69,6 +81,11 @@ export default function Inicial(props) {
             </Text>
           </TouchableOpacity>
         </View>
+        <TouchableOpacity onPress={() => props.navigation.navigate("infor")}>
+      <View style={{padding:20}}>
+        <MaterialIcons style={styles.infor} name="info" size={38} color='white'></MaterialIcons>
+      </View>
+      </TouchableOpacity>
       </ImageBackground>
     </View>
   );
