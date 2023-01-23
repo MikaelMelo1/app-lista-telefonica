@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     color: "yellow",
   },
   botao: {
-    marginTop: 20,
+    marginTop: 1,
   },
   imageBackground: {
     flex: 1,
@@ -65,6 +65,7 @@ export default function Inicial(props) {
             height: 250,
             width: 200,
             marginBottom: 2,
+            marginRight: 30,
           }}
         ></Image>
         <Text style={styles.titulo}>
@@ -81,13 +82,14 @@ export default function Inicial(props) {
                 backgroundColor: "white",
                 textAlign: "center",
                 fontWeight: "bold",
+                shadowColor: "white",
+                shadowOffset: 10,
               }}
             >
               INICIAR AGENDA
             </Text>
           </TouchableOpacity>
         </View>
-        <FlashMessage icon="alarm" position="top" duration={3000} />
 
         <TouchableOpacity onPress={() => props.navigation.navigate("infor")}>
           <View style={{ padding: 20 }}>

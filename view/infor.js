@@ -7,7 +7,6 @@ import {
   Linking,
   TouchableOpacity,
 } from "react-native";
-import { MaterialIcons } from "react-native-vector-icons";
 
 const styles = StyleSheet.create({
   container: {
@@ -33,11 +32,11 @@ const styles = StyleSheet.create({
   },
   version: {
     color: "gray",
-    marginTop: 50,
+    marginTop: 15,
   },
   copy: {
     color: "gray",
-    marginTop: 5,
+    marginTop: 1,
   },
   link: {
     color: "green",
@@ -53,38 +52,49 @@ export default function Inicial(props) {
         source={require("./img-menu/mikael.png")}
       ></Image>
       <Text style={styles.intro}>
-        Seja bem-vindo ao nosso aplicativo de agenda ! Desenvolvi este
-        aplicativo com o objetivo de proporcionar uma experiência única e
-        informativa. Meu nome é Mikael Melo, sou desenvolvedor mobile formado em
-        Análise e Desenvolvimento de Sistemas e Bacharelado em Engenharia de
-        Software. Nossa agenda pré-definida fornece informações valiosas, como
-        endereço do local, telefone de contato e imagem para referência, assim,
-        facilitando seu dia-á-dia. Estamos constantemente trabalhando para
-        melhorar e adicionar novas funcionalidades para melhor atender às suas
+        Seja bem-vindo ao aplicativo de agenda! Desenvolvi este aplicativo com o
+        objetivo de proporcionar uma experiência única e informativa. Meu nome é
+        Mikael Melo, sou desenvolvedor mobile formado em Análise e
+        Desenvolvimento de Sistemas e Bacharelado em Engenharia de Software. A
+        agenda pré-definida fornece informações valiosas, como endereço do
+        local, telefone de contato e imagem para referência, assim, facilitando
+        seu dia-á-dia. Estamos constantemente trabalhando para melhorar e
+        adicionar novas funcionalidades para melhor atender às suas
         necessidades.
       </Text>
       <Text style={styles.intro}>
         Se você tiver alguma dúvida ou sugestão, por favor, não hesite em entrar
-        em contato comigo pelo linkedin{" "}
-        <Text
-          style={styles.link}
+        em contato comigo clicando nas imagens abaixo.
+        <Text style={styles.link}></Text>
+      </Text>
+      <View
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          marginTop: 10,
+        }}
+      >
+        <TouchableOpacity
           onPress={() =>
             Linking.openURL(
               "https://www.linkedin.com/in/mikael-melo-095406218/"
             )
           }
         >
-          Mikael Melo{" "}
-        </Text>
-        ou pelo email{" "}
-        <Text
-          style={styles.link}
+          <Image
+            style={{ width: 50, height: 50, left: -20 }}
+            source={require("./img-menu/linkedin.png")}
+          ></Image>
+        </TouchableOpacity>
+        <TouchableOpacity
           onPress={() => Linking.openURL("mailto: mikaelsilva1940@hotmail.com")}
         >
-          mikaelsilva1940@hotmail.com
-        </Text>
-      </Text>
-
+          <Image
+            style={{ width: 50, height: 50 }}
+            source={require("./img-menu/email.png")}
+          ></Image>
+        </TouchableOpacity>
+      </View>
       <Text style={styles.version}>Versão 1.0.0</Text>
       <Text style={styles.copy}>Copyright © 2023</Text>
     </View>

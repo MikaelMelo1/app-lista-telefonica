@@ -20,7 +20,6 @@ const styles = StyleSheet.create({
     marginTop: 1,
     marginBottom: 10,
     backgroundColor: "black",
-
   },
   image: {
     marginTop: 10,
@@ -66,7 +65,9 @@ export default function Diversos(props) {
           </Text>
 
           <Text style={styles.texto}>Rua Saldanha Marinho, 1233 - Centro</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:3723-5939")}>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(51)3723-5939")}
+          >
             <Text style={styles.discagem}>ligar para a ferragem</Text>
           </TouchableOpacity>
         </View>
@@ -88,7 +89,9 @@ export default function Diversos(props) {
           </Text>
 
           <Text style={styles.texto}>Rua Ramiro Barcelos - Centro</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:35306737")}>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(51)3530-6737")}
+          >
             <Text style={styles.discagem}>Ligar para a Agropecuária</Text>
           </TouchableOpacity>
         </View>
@@ -110,7 +113,9 @@ export default function Diversos(props) {
           </Text>
 
           <Text style={styles.texto}>Tv. Francisco Gama, 79 - Centro</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:51997384307")}>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(51)99738-4307")}
+          >
             <Text style={styles.discagem}>Ligar para o restaurante </Text>
           </TouchableOpacity>
         </View>
@@ -132,7 +137,9 @@ export default function Diversos(props) {
           </Text>
 
           <Text style={styles.texto}>Av. Júlio de Castilhos, 217 - Centro</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:37222503")}>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(51)3722-2503")}
+          >
             <Text style={styles.discagem}>Ligar para a churrascaria</Text>
           </TouchableOpacity>
         </View>
@@ -154,7 +161,9 @@ export default function Diversos(props) {
           </Text>
 
           <Text style={styles.texto}>Rua Moron, 1376 - Centro</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:37221807")}>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(51)3722-1807")}
+          >
             <Text style={styles.discagem}>Ligar para a Veterinária</Text>
           </TouchableOpacity>
         </View>
