@@ -22,7 +22,6 @@ const styles = StyleSheet.create({
     marginTop: 1,
     marginBottom: 10,
     backgroundColor: "black",
-
   },
   image: {
     marginTop: 10,
@@ -68,7 +67,7 @@ export default function Farmacia(props) {
           </Text>
           <Text style={styles.texto}> R. Milan Krás - Barcelos</Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(51) 3724-6004")}
+            onPress={() => Linking.openURL("tel:(051)3724-6004")}
           >
             <Text style={styles.discagem}>LIGAR PARA O HOSPITAL</Text>
           </TouchableOpacity>
@@ -89,7 +88,7 @@ export default function Farmacia(props) {
 
           <Text style={styles.texto}> Rua Saldanha Marinho, 48 - Centro</Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(51) 3722-0800")}
+            onPress={() => Linking.openURL("tel:(051)3722-0800")}
           >
             <Text style={styles.discagem}>LIGAR PARA O HOSPITAL</Text>
           </TouchableOpacity>
@@ -112,7 +111,7 @@ export default function Farmacia(props) {
             Rua Avenidade Brasil, 2300 - Oliveira
           </Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(51) 3722-0888")}
+            onPress={() => Linking.openURL("tel:(051)3722-0888")}
           >
             <Text style={styles.discagem}>Ligar para A UPA</Text>
           </TouchableOpacity>
@@ -132,7 +131,9 @@ export default function Farmacia(props) {
           </Text>
 
           <Text style={styles.texto}>Rua Gal Portinho, 1785 - Centro</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:3723-1364")}>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051)3724-6100")}
+          >
             <Text style={styles.discagem}>Ligar para o posto</Text>
           </TouchableOpacity>
         </View>
@@ -152,7 +153,9 @@ export default function Farmacia(props) {
           <Text style={styles.texto}>
             Rua Leopoldo Souza, 1448 - Centro Social Urbano
           </Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:37246071")}>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051)3724-6071")}
+          >
             <Text style={styles.discagem}>Ligar para o posto</Text>
           </TouchableOpacity>
         </View>
@@ -171,8 +174,10 @@ export default function Farmacia(props) {
           </Text>
 
           <Text style={styles.texto}>Rua Av dos Imigrantes - Marina</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:37232754")}>
-            <Text style={styles.discagem}>Ligar o posto</Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051)3723-2754")}
+          >
+            <Text style={styles.discagem}>Ligar para o posto</Text>
           </TouchableOpacity>
         </View>
 
@@ -194,7 +199,9 @@ export default function Farmacia(props) {
           <Text style={styles.texto}>
             Rua Quadra 12, Casa 10 e 11 - Promorar
           </Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:37246072")}>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051)3724-6072")}
+          >
             <Text style={styles.discagem}>Ligar para o posto</Text>
           </TouchableOpacity>
         </View>
@@ -212,7 +219,9 @@ export default function Farmacia(props) {
             Posto de Saúde - CAPS II
           </Text>
           <Text style={styles.texto}>Rua Marechal Floriano, 207</Text>
-          <TouchableOpacity onPress={() => Linking.openURL("tel:37246112")}>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051)3724-6112")}
+          >
             <Text style={styles.discagem}>Ligar para o posto</Text>
           </TouchableOpacity>
         </View>

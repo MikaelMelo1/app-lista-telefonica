@@ -8,7 +8,7 @@ import {
   Image,
 } from "react-native";
 import { MaterialIcons } from "react-native-vector-icons";
-import FlashMessage from "react-native-flash-message";
+import { LinearGradient } from "expo-linear-gradient";
 
 const styles = StyleSheet.create({
   container: {
@@ -56,7 +56,7 @@ export default function Inicial(props) {
   return (
     <View style={styles.container}>
       <ImageBackground
-        source={require("./img-menu/fundo.jpg")}
+        source={require("./img-menu/background.png")}
         style={styles.imageBackground}
       >
         <Image
@@ -74,20 +74,29 @@ export default function Inicial(props) {
         <Text style={styles.subtitulo}></Text>
         <View style={styles.botao}>
           <TouchableOpacity onPress={() => props.navigation.navigate("menu")}>
-            <Text
+            <LinearGradient
+              colors={["#4c669f", "#3b5998", "#192f6a"]}
+              start={{ x: 1, y: 0 }}
+              end={{ x: 1, y: 1 }}
               style={{
-                elevation: 10,
-                color: "black",
-                padding: 20,
-                backgroundColor: "white",
-                textAlign: "center",
-                fontWeight: "bold",
-                shadowColor: "white",
-                shadowOffset: 10,
+                height: 50,
+                width: 150,
+                display: "flex",
+                justifyContent: "center",
+                borderRadius: 10,
               }}
             >
-              INICIAR AGENDA
-            </Text>
+              <Text
+                style={{
+                  textAlign: "center",
+                  fontWeight: "bold",
+                  color: "white",
+                  justifyContent: "center",
+                }}
+              >
+                INICIAR AGENDA
+              </Text>
+            </LinearGradient>
           </TouchableOpacity>
         </View>
 

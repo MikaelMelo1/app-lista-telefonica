@@ -99,7 +99,7 @@ export default function Diversos(props) {
         <View style={styles.card}>
           <Image
             style={styles.image}
-            source={require("./diversos/dom-chico.jpg")}
+            source={require("./diversos/dom-chico.jpeg")}
           />
           <Text
             style={{
@@ -114,7 +114,7 @@ export default function Diversos(props) {
 
           <Text style={styles.texto}>Tv. Francisco Gama, 79 - Centro</Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(51)99738-4307")}
+            onPress={() => Linking.openURL("tel:(051)99738-4307")}
           >
             <Text style={styles.discagem}>Ligar para o restaurante </Text>
           </TouchableOpacity>
@@ -138,7 +138,7 @@ export default function Diversos(props) {
 
           <Text style={styles.texto}>Av. Júlio de Castilhos, 217 - Centro</Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(51)3722-2503")}
+            onPress={() => Linking.openURL("tel:(051)3722-2503")}
           >
             <Text style={styles.discagem}>Ligar para a churrascaria</Text>
           </TouchableOpacity>
@@ -162,7 +162,7 @@ export default function Diversos(props) {
 
           <Text style={styles.texto}>Rua Moron, 1376 - Centro</Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(51)3722-1807")}
+            onPress={() => Linking.openURL("tel:(051)3722-1807")}
           >
             <Text style={styles.discagem}>Ligar para a Veterinária</Text>
           </TouchableOpacity>

@@ -66,7 +66,7 @@ export default function Farmacia(props) {
           </Text>
           <Text style={styles.texto}>Rua Sete de Setembro, 1265 - Centro</Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(51)3722-7070")}
+            onPress={() => Linking.openURL("tel:(051)3722-7070")}
           >
             <Text style={styles.discagem}>Ligar para a Farmácia</Text>
           </TouchableOpacity>
@@ -90,7 +90,7 @@ export default function Farmacia(props) {
 
           <Text style={styles.texto}>Rua Sete de Setembro, 1001 - Centro</Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(51)3530-6037")}
+            onPress={() => Linking.openURL("tel:(051)3530-6037")}
           >
             <Text style={styles.discagem}>Ligar para a Farmácia</Text>
           </TouchableOpacity>
@@ -138,7 +138,7 @@ export default function Farmacia(props) {
 
           <Text style={styles.texto}>Rua Sete de Setembro, 1402 - Centro</Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(51)2023-0387")}
+            onPress={() => Linking.openURL("tel:(051)2023-0387")}
           >
             <Text style={styles.discagem}>Ligar para a Farmácia</Text>
           </TouchableOpacity>
@@ -164,7 +164,7 @@ export default function Farmacia(props) {
             Rua Av. Júlio de Castilhos, 683 - Centro
           </Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(51)3723-5940")}
+            onPress={() => Linking.openURL("tel:(051)3723-5940")}
           >
             <Text style={styles.discagem}>Ligar para a Farmácia</Text>
           </TouchableOpacity>
@@ -188,7 +188,7 @@ export default function Farmacia(props) {
 
           <Text style={styles.texto}>Rua Saldanha Marinho, 1350 - Centro</Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(51)98040-5382")}
+            onPress={() => Linking.openURL("tel:(051)98040-5382")}
           >
             <Text style={styles.discagem}>Ligar para a Farmácia</Text>
           </TouchableOpacity>

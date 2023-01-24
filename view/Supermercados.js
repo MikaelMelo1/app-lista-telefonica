@@ -68,7 +68,7 @@ export default function Farmacia(props) {
 
           <Text style={styles.texto}>Av. Brasil, 3368 - Marina</Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(51) 3722-4183")}
+            onPress={() => Linking.openURL("tel:(051)3722-4183")}
           >
             <Text style={styles.discagem}>Ligar para o mercado</Text>
           </TouchableOpacity>
@@ -92,7 +92,7 @@ export default function Farmacia(props) {
 
           <Text style={styles.texto}>R. Ernesto Alves, 888 - Centro</Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(51) 3724-1701")}
+            onPress={() => Linking.openURL("tel:(051)3724-1701")}
           >
             <Text style={styles.discagem}>Ligar para o mercado</Text>
           </TouchableOpacity>
@@ -116,7 +116,7 @@ export default function Farmacia(props) {
 
           <Text style={styles.texto}>R. Otto Mernak, 253 - Centro</Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(51) 3723-2525")}
+            onPress={() => Linking.openURL("tel:(051)3723-2525")}
           >
             <Text style={styles.discagem}>Ligar para o mercado</Text>
           </TouchableOpacity>
@@ -140,7 +140,7 @@ export default function Farmacia(props) {
 
           <Text style={styles.texto}> R. Sete de Setembro, 901 - Centro</Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(51) 3722-2191")}
+            onPress={() => Linking.openURL("tel:(051)3722-2191")}
           >
             <Text style={styles.discagem}>Ligar para o mercado</Text>
           </TouchableOpacity>
@@ -165,7 +165,7 @@ export default function Farmacia(props) {
 
           <Text style={styles.texto}>Av. Júlio de Castilhos, 413 - Centro</Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(51) 3722-4433")}
+            onPress={() => Linking.openURL("tel:(051) 3722-4433")}
           >
             <Text style={styles.discagem}>Ligar para o mercado</Text>
           </TouchableOpacity>
@@ -190,13 +190,11 @@ export default function Farmacia(props) {
 
           <Text style={styles.texto}>Av. Brasil, 491 - Centro</Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(51) 3722-2096")}
+            onPress={() => Linking.openURL("tel:(051)3722-2096")}
           >
             <Text style={styles.discagem}>Ligar para o mercado</Text>
           </TouchableOpacity>
         </View>
-
-
 
         <View style={styles.card}>
           <Image source={require("./mercado/imec.jpg")} style={styles.image} />
@@ -214,7 +212,7 @@ export default function Farmacia(props) {
 
           <Text style={styles.texto}>Av. Júlio de Castilhos, 11 - Centro</Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(51) 3723-6633")}
+            onPress={() => Linking.openURL("tel:(051)3723-6633")}
           >
             <Text style={styles.discagem}>Ligar para o mercado</Text>
           </TouchableOpacity>

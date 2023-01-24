@@ -52,13 +52,13 @@ export default function Inicial(props) {
         source={require("./img-menu/mikael.png")}
       ></Image>
       <Text style={styles.intro}>
-        Seja bem-vindo ao aplicativo de agenda! Desenvolvi este aplicativo com o
-        objetivo de proporcionar uma experiência única e informativa. Meu nome é
-        Mikael Melo, sou desenvolvedor mobile formado em Análise e
+        Seja bem-vindo ao aplicativo de agenda! O objetivo do aplicativo é
+        proporcionar uma experiência única e informativa para você. Meu nome é
+        Mikael Melo e sou desenvolvedor mobile, com formação em Análise e
         Desenvolvimento de Sistemas e Bacharelado em Engenharia de Software. A
         agenda pré-definida fornece informações valiosas, como endereço do
-        local, telefone de contato e imagem para referência, assim, facilitando
-        seu dia-á-dia. Estamos constantemente trabalhando para melhorar e
+        local, telefone de contato e imagem para referência, para facilitar o
+        seu dia-a-dia. Estamos constantemente trabalhando para melhorar e
         adicionar novas funcionalidades para melhor atender às suas
         necessidades.
       </Text>
