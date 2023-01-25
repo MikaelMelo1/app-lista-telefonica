@@ -12,6 +12,7 @@
     },
     "preview": {
       "distribution": "internal",
+      "channel": "staging",
       "ios": {
         "resourceClass": "m1-medium"
       }
@@ -19,7 +20,9 @@
     "production": {
       "ios": {
         "resourceClass": "m1-medium"
-      }
+      },
+      "channel": "staging",
+      "distribution": "internal"
     }
   },
   "submit": {
