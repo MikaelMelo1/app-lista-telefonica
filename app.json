@@ -12,8 +12,7 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0,
-      "url": "https://u.expo.dev/2afdd55b-3161-48f2-bbf1-6c50103cce71"
+      "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
@@ -23,19 +22,10 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      },
-      "package": "com.mikaelmelo5.applistatelefonica"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "2afdd55b-3161-48f2-bbf1-6c50103cce71"
-      }
-    },
-    "runtimeVersion": {
-      "policy": "appVersion"
     }
   }
 }

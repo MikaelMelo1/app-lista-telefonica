@@ -21,7 +21,7 @@
       "ios": {
         "resourceClass": "m1-medium"
       },
-      "channel": "staging",
+      "channel": "default",
       "distribution": "internal"
     }
   },
