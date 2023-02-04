@@ -36,6 +36,17 @@ const styles = StyleSheet.create({
     marginTop: 1,
     marginBottom: 10,
   },
+  textoH: {
+    fontSize: 15,
+    color: "white",
+    marginTop: -5,
+    marginBottom: 10,
+    lineBreakMode: "tail",
+    textAlign: "center",
+  },
+  xx: {
+    color: "#33ff33",
+  },
   discagem: {
     fontSize: 15,
     color: "white",
@@ -66,6 +77,10 @@ export default function Farmacia(props) {
             Hospital da Liga
           </Text>
           <Text style={styles.texto}> R. Milan Krás - Barcelos</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>08h00 às 17h30</Text>
+          </Text>
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051)3724-6004")}
           >
@@ -87,6 +102,10 @@ export default function Farmacia(props) {
           </Text>
 
           <Text style={styles.texto}> Rua Saldanha Marinho, 48 - Centro</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:
+            <Text style={styles.xx}> Aberto 24 horas</Text>
+          </Text>
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051)3722-0800")}
           >
@@ -110,6 +129,10 @@ export default function Farmacia(props) {
           <Text style={styles.texto}>
             Rua Avenidade Brasil, 2300 - Oliveira
           </Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>Aberto 24 horas</Text>
+          </Text>
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051)3722-0888")}
           >
@@ -131,6 +154,10 @@ export default function Farmacia(props) {
           </Text>
 
           <Text style={styles.texto}>Rua Gal Portinho, 1785 - Centro</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>08h00 às 12h00{"\n"} 13h30 às 17h30</Text>
+          </Text>
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051)3724-6100")}
           >
@@ -153,6 +180,11 @@ export default function Farmacia(props) {
           <Text style={styles.texto}>
             Rua Leopoldo Souza, 1448 - Centro Social Urbano
           </Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}> 08h00 às 12h00{"\n"} 13h30 às 17h30</Text>
+          </Text>
+
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051)3724-6071")}
           >
@@ -174,6 +206,10 @@ export default function Farmacia(props) {
           </Text>
 
           <Text style={styles.texto}>Rua Av dos Imigrantes - Marina</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>08h00 às 12h00{"\n"}13h30 às 17h30</Text>
+          </Text>
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051)3723-2754")}
           >
@@ -199,6 +235,10 @@ export default function Farmacia(props) {
           <Text style={styles.texto}>
             Rua Quadra 12, Casa 10 e 11 - Promorar
           </Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:
+            <Text style={styles.xx}> 08h00 às 12h00{"\n"}13h30 às 16h30</Text>
+          </Text>
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051)3724-6072")}
           >
@@ -219,6 +259,10 @@ export default function Farmacia(props) {
             Posto de Saúde - CAPS II
           </Text>
           <Text style={styles.texto}>Rua Marechal Floriano, 207</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>08h00 às 12h00{"\n"}13h30 às 18h00</Text>
+          </Text>
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051)3724-6112")}
           >

@@ -7,7 +7,7 @@ import {
   Supermercados,
   Diversos,
   saude,
-  infor
+  infor,
 } from "./view/";
 
 function HomeScreen() {
@@ -23,15 +23,15 @@ const Stack = createNativeStackNavigator();
 function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator headerMode="none">
         <Stack.Screen
           name="Inicial"
           component={Inicial}
           options={{
             title: "",
             headerStyle: {
-              backgroundColor: 'white',
-            }
+              backgroundColor: "white",
+            },
           }}
         />
         <Stack.Screen
@@ -69,7 +69,7 @@ function App() {
             title: "Supermercados",
           }}
         />
-         <Stack.Screen
+        <Stack.Screen
           name="infor"
           component={infor}
           options={{

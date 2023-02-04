@@ -43,6 +43,17 @@ const styles = StyleSheet.create({
     backgroundColor: "red",
     padding: 7,
   },
+  xx: {
+    color: "#33ff33",
+  },
+  textoH: {
+    fontSize: 15,
+    color: "white",
+    marginTop: -5,
+    marginBottom: 10,
+    lineBreakMode: "tail",
+    textAlign: "center",
+  },
 });
 export default function Diversos(props) {
   return (
@@ -65,6 +76,10 @@ export default function Diversos(props) {
           </Text>
 
           <Text style={styles.texto}>Rua Saldanha Marinho, 1233 - Centro</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>08h15 às 11h45{"\n"}13h30 às 18h00</Text>
+          </Text>
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(51)3723-5939")}
           >
@@ -89,6 +104,10 @@ export default function Diversos(props) {
           </Text>
 
           <Text style={styles.texto}>Rua Ramiro Barcelos - Centro</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}> 08h30 às 19h00</Text>
+          </Text>
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(51)3530-6737")}
           >
@@ -113,6 +132,10 @@ export default function Diversos(props) {
           </Text>
 
           <Text style={styles.texto}>Tv. Francisco Gama, 79 - Centro</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>19h30 às 23h30</Text>
+          </Text>
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051)99738-4307")}
           >
@@ -137,6 +160,10 @@ export default function Diversos(props) {
           </Text>
 
           <Text style={styles.texto}>Av. Júlio de Castilhos, 217 - Centro</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:
+            <Text style={styles.xx}> 11h00 às 14h00{"\n"}19h00 às 22h00</Text>
+          </Text>
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051)3722-2503")}
           >
@@ -160,7 +187,20 @@ export default function Diversos(props) {
             Clínica Veterinaria Dr. Edson Luiz Salomão
           </Text>
 
-          <Text style={styles.texto}>Rua Moron, 1376 - Centro</Text>
+          <Text
+            onPress={() =>
+              Linking.openURL(
+                "google.navigation:q=1600 Rua Moron, 1376 - Centro"
+              )
+            }
+            style={styles.texto}
+          >
+            Rua Moron, 1376 - Centro
+          </Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>08h30 às 12h00{"\n"}13h30 às 18h30</Text>
+          </Text>
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051)3722-1807")}
           >

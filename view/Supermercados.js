@@ -36,6 +36,15 @@ const styles = StyleSheet.create({
     marginTop: 1,
     marginBottom: 10,
   },
+  xx: {
+    color: "#33ff33",
+  },
+  textoH: {
+    fontSize: 15,
+    color: "white",
+    marginTop: -5,
+    marginBottom: 10,
+  },
   discagem: {
     fontSize: 15,
     color: "white",
@@ -67,6 +76,10 @@ export default function Farmacia(props) {
           </Text>
 
           <Text style={styles.texto}>Av. Brasil, 3368 - Marina</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>08h00 às 20h00</Text>
+          </Text>
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051)3722-4183")}
           >
@@ -91,6 +104,10 @@ export default function Farmacia(props) {
           </Text>
 
           <Text style={styles.texto}>R. Ernesto Alves, 888 - Centro</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>08h00 às 20h00</Text>
+          </Text>
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051)3724-1701")}
           >
@@ -113,8 +130,11 @@ export default function Farmacia(props) {
           >
             Rede Vivo
           </Text>
-
           <Text style={styles.texto}>R. Otto Mernak, 253 - Centro</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}> 08h00 às 20h30</Text>
+          </Text>
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051)3723-2525")}
           >
@@ -139,6 +159,10 @@ export default function Farmacia(props) {
           </Text>
 
           <Text style={styles.texto}> R. Sete de Setembro, 901 - Centro</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>08h00 às 20h30</Text>
+          </Text>
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051)3722-2191")}
           >
@@ -164,6 +188,10 @@ export default function Farmacia(props) {
           </Text>
 
           <Text style={styles.texto}>Av. Júlio de Castilhos, 413 - Centro</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>08h00 às 20h30</Text>
+          </Text>
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051) 3722-4433")}
           >
@@ -189,6 +217,10 @@ export default function Farmacia(props) {
           </Text>
 
           <Text style={styles.texto}>Av. Brasil, 491 - Centro</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>08h00 às 20h30</Text>
+          </Text>
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051)3722-2096")}
           >
@@ -211,6 +243,10 @@ export default function Farmacia(props) {
           </Text>
 
           <Text style={styles.texto}>Av. Júlio de Castilhos, 11 - Centro</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>08h00 às 20h30</Text>
+          </Text>
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051)3723-6633")}
           >
