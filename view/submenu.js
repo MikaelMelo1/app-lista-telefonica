@@ -48,7 +48,7 @@ export default function Menu(props) {
               justifyContent: "center",
               alignContent: "center",
               alignItems: "center",
-              backgroundColor: "#D97DFC",
+              backgroundColor: "#FF7F50",
               textAlign: "center",
               alignItems: "center",
               height: 200,
@@ -58,7 +58,7 @@ export default function Menu(props) {
               source={require("./img-menu/mercado.png")}
               style={styles.image}
             />
-            <Text style={styles.text}>Mercado</Text>
+            <Text style={styles.text}>BARES</Text>
           </View>
         </View>
       </TouchableOpacity>
@@ -68,7 +68,7 @@ export default function Menu(props) {
           <View
             style={{
               justifyContent: "center",
-              backgroundColor: "#90C022",
+              backgroundColor: "#00FFFF",
               alignItems: "center",
               height: 200,
             }}
@@ -77,7 +77,7 @@ export default function Menu(props) {
               source={require("./img-menu/medico.png")}
               style={styles.image}
             />
-            <Text style={styles.text}>Saúde</Text>
+            <Text style={styles.text}>FERRAGENS</Text>
           </View>
         </View>
       </TouchableOpacity>
@@ -87,7 +87,7 @@ export default function Menu(props) {
           <View
             style={{
               justifyContent: "center",
-              backgroundColor: "#FF7062",
+              backgroundColor: "red",
               alignItems: "center",
 
               height: 200,
@@ -97,17 +97,17 @@ export default function Menu(props) {
               source={require("./img-menu/farmacia.png")}
               style={styles.image}
             />
-            <Text style={styles.text}>Farmácia</Text>
+            <Text style={styles.text}>RESTAURANTES</Text>
           </View>
         </View>
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => props.navigation.navigate("submenu")}>
+      <TouchableOpacity onPress={() => props.navigation.navigate("Diversos")}>
         <View style={styles.container}>
           <View
             style={{
               justifyContent: "center",
-              backgroundColor: "#14A2FF",
+              backgroundColor: "blue",
               alignItems: "center",
               height: 200,
             }}
@@ -116,7 +116,7 @@ export default function Menu(props) {
               source={require("./img-menu/diversos.png")}
               style={styles.image}
             />
-            <Text style={styles.text}>Diversos</Text>
+            <Text style={styles.text}>PETS</Text>
           </View>
         </View>
       </TouchableOpacity>

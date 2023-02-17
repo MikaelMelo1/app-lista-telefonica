@@ -9,6 +9,7 @@ import {
 } from "react-native";
 import { MaterialIcons } from "react-native-vector-icons";
 import { LinearGradient } from "expo-linear-gradient";
+import { ScrollView } from "react-native-gesture-handler";
 
 const styles = StyleSheet.create({
   container: {

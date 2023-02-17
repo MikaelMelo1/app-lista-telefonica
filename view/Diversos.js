@@ -187,16 +187,7 @@ export default function Diversos(props) {
             Clínica Veterinaria Dr. Edson Luiz Salomão
           </Text>
 
-          <Text
-            onPress={() =>
-              Linking.openURL(
-                "google.navigation:q=1600 Rua Moron, 1376 - Centro"
-              )
-            }
-            style={styles.texto}
-          >
-            Rua Moron, 1376 - Centro
-          </Text>
+          <Text style={styles.texto}>Rua Moron, 1376 - Centro</Text>
           <Text style={styles.textoH}>
             Horário de Atendimento:{" "}
             <Text style={styles.xx}>08h30 às 12h00{"\n"}13h30 às 18h30</Text>

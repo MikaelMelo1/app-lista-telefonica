@@ -8,6 +8,7 @@ import {
   Diversos,
   saude,
   infor,
+  submenu,
 } from "./view/";
 
 function HomeScreen() {
@@ -67,6 +68,13 @@ function App() {
           component={Supermercados}
           options={{
             title: "Supermercados",
+          }}
+        />
+        <Stack.Screen
+          name="submenu"
+          component={submenu}
+          options={{
+            title: "Submenu",
           }}
         />
         <Stack.Screen
