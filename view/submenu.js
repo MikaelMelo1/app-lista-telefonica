@@ -89,7 +89,6 @@ export default function Menu(props) {
               justifyContent: "center",
               backgroundColor: "red",
               alignItems: "center",
-
               height: 200,
             }}
           >
