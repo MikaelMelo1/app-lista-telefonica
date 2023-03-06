@@ -6,6 +6,11 @@ import saude from "./saude";
 import Supermercados from "./Supermercados";
 import infor from "./infor";
 import submenu from "./submenu";
+import alimentacao from "./alimentacao";
+import bares from "./bares";
+import ferragens from "./ferragens";
+import lojas from "./lojas";
+import pets from "./pets"
 
 export {
   Inicial,
@@ -16,4 +21,9 @@ export {
   Supermercados,
   infor,
   submenu,
+  alimentacao,
+  bares,
+  ferragens,
+  lojas,
+  pets,
 };

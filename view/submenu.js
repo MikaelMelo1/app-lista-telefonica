@@ -40,7 +40,7 @@ export default function Menu(props) {
   return (
     <ScrollView>
       <TouchableOpacity
-        onPress={() => props.navigation.navigate("Supermercados")}
+        onPress={() => props.navigation.navigate("bares")}
       >
         <View style={styles.container}>
           <View
@@ -55,7 +55,7 @@ export default function Menu(props) {
             }}
           >
             <Image
-              source={require("./img-menu/mercado.png")}
+              source={require("./img-menu/bar.png")}
               style={styles.image}
             />
             <Text style={styles.text}>BARES</Text>
@@ -63,26 +63,26 @@ export default function Menu(props) {
         </View>
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => props.navigation.navigate("saude")}>
+      <TouchableOpacity onPress={() => props.navigation.navigate("alimentacao")}>
         <View style={styles.container}>
           <View
             style={{
               justifyContent: "center",
-              backgroundColor: "#00FFFF",
+              backgroundColor: "#339933",
               alignItems: "center",
               height: 200,
             }}
           >
             <Image
-              source={require("./img-menu/medico.png")}
+              source={require("./img-menu/comida.png")}
               style={styles.image}
             />
-            <Text style={styles.text}>FERRAGENS</Text>
+            <Text style={styles.text}>ALIMENTAÇÃO</Text>
           </View>
         </View>
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => props.navigation.navigate("Farmacia")}>
+      <TouchableOpacity onPress={() => props.navigation.navigate("ferragens")}>
         <View style={styles.container}>
           <View
             style={{
@@ -93,15 +93,15 @@ export default function Menu(props) {
             }}
           >
             <Image
-              source={require("./img-menu/farmacia.png")}
+              source={require("./img-menu/parafuso.png")}
               style={styles.image}
             />
-            <Text style={styles.text}>RESTAURANTES</Text>
+            <Text style={styles.text}>FERRAGENS</Text>
           </View>
         </View>
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => props.navigation.navigate("Diversos")}>
+      <TouchableOpacity onPress={() => props.navigation.navigate("pets")}>
         <View style={styles.container}>
           <View
             style={{
@@ -112,10 +112,29 @@ export default function Menu(props) {
             }}
           >
             <Image
-              source={require("./img-menu/diversos.png")}
+              source={require("./img-menu/pets.png")}
               style={styles.image}
             />
             <Text style={styles.text}>PETS</Text>
+          </View>
+        </View>
+      </TouchableOpacity>
+
+      <TouchableOpacity onPress={() => props.navigation.navigate("lojas")}>
+        <View style={styles.container}>
+          <View
+            style={{
+              justifyContent: "center",
+              backgroundColor: "#CC6600",
+              alignItems: "center",
+              height: 200,
+            }}
+          >
+            <Image
+              source={require("./img-menu/loja-de-roupas.png")}
+              style={styles.image}
+            />
+            <Text style={styles.text}>LOJAS</Text>
           </View>
         </View>
       </TouchableOpacity>

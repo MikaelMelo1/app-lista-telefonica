@@ -9,6 +9,11 @@ import {
   saude,
   infor,
   submenu,
+  lojas,
+  pets,
+  bares,
+  alimentacao,
+  ferragens,
 } from "./view/";
 
 function HomeScreen() {
@@ -82,6 +87,44 @@ function App() {
           component={infor}
           options={{
             title: "Sobre",
+          }}
+        />
+
+        <Stack.Screen
+          name="alimentacao"
+          component={alimentacao}
+          options={{
+            title: "Alimentação",
+          }}
+        />
+         <Stack.Screen
+          name="bares"
+          component={bares}
+          options={{
+            title: "Bares",
+          }}
+        />
+
+          <Stack.Screen
+          name="ferragens"
+          component={ferragens}
+          options={{
+            title: "Ferragens"
+          }}
+        />
+         <Stack.Screen
+          name="lojas"
+          component={lojas}
+          options={{
+            title: "Lojas"                                                                                                                                                                                                                                                                                                                                                                                                                
+          }}
+        />
+
+         <Stack.Screen
+          name="pets"
+          component={pets}
+          options={{
+            title: "Pets",
           }}
         />
       </Stack.Navigator>
