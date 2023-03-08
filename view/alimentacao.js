@@ -60,9 +60,7 @@ export default function Farmacia(props) {
   return (
     <ScrollView>
       <View style={styles.container}>
-               
-
-      <View style={styles.card}>
+        <View style={styles.card}>
           <Image
             style={styles.image}
             source={require("./diversos/restaurante-querencia.jpg")}
@@ -117,6 +115,235 @@ export default function Farmacia(props) {
           </TouchableOpacity>
         </View>
 
+        <View style={styles.card}>
+          <Image
+            style={styles.image}
+            source={require("./alimentacao/elfogon.jpg")}
+          />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            El Fogón
+          </Text>
+
+          <Text style={styles.texto}>
+            Rua Sen. Pinheiro Machado, 1912 - Marques Ribeiro
+          </Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>19h30 às 23h30</Text>
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 3723-1121")}
+          >
+            <Text style={styles.discagem}>Ligar para o restaurante </Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.card}>
+          <Image
+            style={styles.image}
+            source={require("./alimentacao/sushi-bar.jpg")}
+          />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Vício Sushi Bar
+          </Text>
+
+          <Text style={styles.texto}>Rua Ramiro Barcelos, 2500 - Augusta</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>18h00 às 22h00</Text>
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 3530-6360")}
+          >
+            <Text style={styles.discagem}>Ligar para o restaurante </Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.card}>
+          <Image
+            style={styles.image}
+            source={require("./alimentacao/yakusoki.jpg")}
+          />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Vício Sushi Bar
+          </Text>
+
+          <Text style={styles.texto}>Rua Aníbal Loreiro, 100 - Centro</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>19h00 às 23h30</Text>
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 3723-8065")}
+          >
+            <Text style={styles.discagem}>Ligar para o restaurante </Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.card}>
+          <Image
+            style={styles.image}
+            source={require("./alimentacao/santamaria.jpg")}
+          />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Restaurante e Lancheria Santa Maria
+          </Text>
+
+          <Text style={styles.texto}>
+            Avenida, Av. Júlio de Castilhos, 160 - Centro
+          </Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>11h00 às 14h00{"\n"}18h00 às 00h00</Text>
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 3722-3746")}
+          >
+            <Text style={styles.discagem}>Ligar para o restaurante </Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.card}>
+          <Image
+            style={styles.image}
+            source={require("./alimentacao/digos.jpg")}
+          />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Digos Lanches
+          </Text>
+
+          <Text style={styles.texto}>Rua Duque de Caxias, 1467 - Centro</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>11h30 às 13h30{"\n"}17h30 às 00h00</Text>
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 3723-9072")}
+          >
+            <Text style={styles.discagem}>Ligar para o restaurante </Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.card}>
+          <Image
+            style={styles.image}
+            source={require("./alimentacao/acai.jpg")}
+          />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            La Fruta Açai
+          </Text>
+
+          <Text style={styles.texto}>Rua Major Ouriques, 1270 - Centro</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>12h00 às 21h00</Text>
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 3723-9072")}
+          >
+            <Text style={styles.discagem}>Ligar para o restaurante </Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.card}>
+          <Image
+            style={styles.image}
+            source={require("./alimentacao/smurfete.jpg")}
+          />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Açai da Smurfette
+          </Text>
+
+          <Text style={styles.texto}>
+            Rua Fontoura Xavier - Franceschin, 172
+          </Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>14h00 às 22h00</Text>
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 99540-4829")}
+          >
+            <Text style={styles.discagem}>Ligar para o restaurante </Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.card}>
+          <Image
+            style={styles.image}
+            source={require("./alimentacao/eskimo.jpg")}
+          />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Eskimó Sorvetes
+          </Text>
+
+          <Text style={styles.texto}>Av. Júlio de Castilhos, 825 - Centro</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>10h00 às 12h00{"\n"}13h30 às 21h00</Text>
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 2023-0474")}
+          >
+            <Text style={styles.discagem}>Ligar para o restaurante </Text>
+          </TouchableOpacity>
+        </View>
       </View>
     </ScrollView>
   );

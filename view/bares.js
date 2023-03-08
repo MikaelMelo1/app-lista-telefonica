@@ -60,13 +60,8 @@ export default function Farmacia(props) {
   return (
     <ScrollView>
       <View style={styles.container}>
-       
-
         <View style={styles.card}>
-          <Image
-            source={require("./farmacia/ultramed-7.jpg")}
-            style={styles.image}
-          />
+          <Image source={require("./bar/butiquim.jpg")} style={styles.image} />
           <Text
             style={{
               fontSize: 20,
@@ -75,21 +70,120 @@ export default function Farmacia(props) {
               fontWeight: "bold",
             }}
           >
-            Farmacia UltraMed Popular
+            Butiquim bar e espetaria
           </Text>
 
-          <Text style={styles.texto}>Rua Sete de Setembro, 1001 - Centro</Text>
+          <Text style={styles.texto}>Rua Ernesto Alves, 837 - Centro</Text>
           <Text style={styles.textoH}>
             Horário de Atendimento:{" "}
-            <Text style={styles.xx}>08h00 às 22h00</Text>
+            <Text style={styles.xx}>18h00 às 02h00</Text>
           </Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(051)3530-6037")}
+            onPress={() => Linking.openURL("tel:(051)2023-0283")}
           >
-            <Text style={styles.discagem}>Ligar para a Farmácia</Text>
+            <Text style={styles.discagem}>Ligar para o bar</Text>
           </TouchableOpacity>
         </View>
 
+        <View style={styles.card}>
+          <Image source={require("./bar/aquece.jpg")} style={styles.image} />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Aquece Pub
+          </Text>
+
+          <Text style={styles.texto}>Rua David Barcelos, 860 - Centro</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>18h00 às 04h00</Text>
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 3722-7092")}
+          >
+            <Text style={styles.discagem}>Ligar para o bar</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.card}>
+          <Image source={require("./bar/role.jpg")} style={styles.image} />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Rolê Pub e Lanches
+          </Text>
+
+          <Text style={styles.texto}>Rua Mal. Floriano, 248 - Centro</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>18h00 às 02h00</Text>
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 99708-4712")}
+          >
+            <Text style={styles.discagem}>Ligar para o bar</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.card}>
+          <Image source={require("./bar/bigorna.jpg")} style={styles.image} />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Boteco do Bigorna
+          </Text>
+
+          <Text style={styles.texto}>Rua David Barcelos, 899 - Centro</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>16h00 às 03h00</Text>
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 99923-7355")}
+          >
+            <Text style={styles.discagem}>Ligar para o bar</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.card}>
+          <Image source={require("./bar/london.jpg")} style={styles.image} />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            London Pub 584
+          </Text>
+
+          <Text style={styles.texto}>Rua Bento Gonçalves, 584 - Centro</Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>19h00 às 00h00</Text>
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 99595-5040")}
+          >
+            <Text style={styles.discagem}>Ligar para o bar</Text>
+          </TouchableOpacity>
+        </View>
       </View>
     </ScrollView>
   );

@@ -39,9 +39,7 @@ const styles = StyleSheet.create({
 export default function Menu(props) {
   return (
     <ScrollView>
-      <TouchableOpacity
-        onPress={() => props.navigation.navigate("bares")}
-      >
+      <TouchableOpacity onPress={() => props.navigation.navigate("bares")}>
         <View style={styles.container}>
           <View
             style={{
@@ -63,7 +61,9 @@ export default function Menu(props) {
         </View>
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => props.navigation.navigate("alimentacao")}>
+      <TouchableOpacity
+        onPress={() => props.navigation.navigate("alimentacao")}
+      >
         <View style={styles.container}>
           <View
             style={{
