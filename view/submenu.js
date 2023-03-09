@@ -96,7 +96,9 @@ export default function Menu(props) {
               source={require("./img-menu/parafuso.png")}
               style={styles.image}
             />
-            <Text style={styles.text}>FERRAGENS</Text>
+            <Text style={styles.text}>
+              FERRAGENS {"\n"}E MATERIAIS DE CONSTRUÇÃO{" "}
+            </Text>
           </View>
         </View>
       </TouchableOpacity>
