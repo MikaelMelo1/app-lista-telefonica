@@ -141,6 +141,28 @@ export default function Menu(props) {
         </View>
       </TouchableOpacity>
 
+
+      <TouchableOpacity onPress={() => props.navigation.navigate("oficinas")}>
+        <View style={styles.container}>
+          <View
+            style={{
+              justifyContent: "center",
+              backgroundColor: "blue",
+              alignItems: "center",
+              height: 200,
+            }}
+          >
+            <Image
+              source={require("./img-menu/loja-de-roupas.png")}
+              style={styles.image}
+            />
+            <Text style={styles.text}>OFICINA E GUINCHO</Text>
+          </View>
+        </View>
+      </TouchableOpacity>
+
+
+
       <TouchableOpacity
         onPress={() => props.navigation.navigate("importantes")}
       >

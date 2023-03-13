@@ -101,6 +101,189 @@ export default function Farmacia(props) {
             <Text style={styles.discagem}>Ligar para a Brigada Militar</Text>
           </TouchableOpacity>
         </View>
+
+
+        <View style={styles.card}>
+          <Image
+            style={styles.image}
+            source={require("./img-menu/policia.png")}
+          />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: -10,
+              fontWeight: "bold",
+            }}
+          >
+            Policia Civil
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 3722-2003")}
+          >
+            <Text style={styles.discagem}>Ligar para a Policia Civil</Text>
+          </TouchableOpacity>
+        </View>
+
+
+
+        
+        <View style={styles.card}>
+          <Image
+            style={styles.image}
+            source={require("./img-menu/conselhoo.jpg")}
+          />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Conselho Tutelar
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 3724-6108")}
+          >
+            <Text style={styles.discagem}>Ligar para o conselho tutelar</Text>
+          </TouchableOpacity>
+        </View>
+
+
+
+        
+        <View style={styles.card}>
+          <Image
+            style={styles.image}
+            source={require("./img-menu/samu.jpg")}
+          />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+          SAMU
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 192")}
+          >
+            <Text style={styles.discagem}>Ligar para a SAMU</Text>
+          </TouchableOpacity>
+        </View>
+
+
+
+
+
+
+        <View style={styles.card}>
+          <Image
+            style={styles.image}
+            source={require("./img-menu/corsan.png")}
+          />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Corsan
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 0800 646 6444")}
+          >
+            <Text style={styles.discagem}>Ligar para a corsan</Text>
+          </TouchableOpacity>
+        </View>
+
+
+        
+
+        <View style={styles.card}>
+          <Image
+            style={styles.image}
+            source={require("./img-menu/rge.jpg")}
+          />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            RGE Sul
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 0800 707 7272")}
+          >
+            <Text style={styles.discagem}>Ligar para a rge sul</Text>
+          </TouchableOpacity>
+        </View>
+
+
+
+
+        <View style={styles.card}>
+          <Image
+            style={styles.image}
+            source={require("./img-menu/rodoviaria.jpeg")}
+          />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Rodoviária
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 3722-2250")}
+          >
+            <Text style={styles.discagem}>Ligar para a rodoviária</Text>
+          </TouchableOpacity>
+        </View>
+
+
+
+
+        <View style={styles.card}>
+          <Image
+            style={styles.image}
+            source={require("./img-menu/secretaria.jpg")}
+          />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Secretaria de Obras
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 3724-6117")}
+          >
+            <Text style={styles.discagem}>Ligar para a secretaria</Text>
+          </TouchableOpacity>
+        </View>
+
+
+
+
+
+
+
+
       </View>
     </ScrollView>
   );

@@ -15,6 +15,7 @@ import {
   alimentacao,
   importantes,
   ferragens,
+  oficinas
 } from "./view/";
 
 function HomeScreen() {
@@ -80,7 +81,7 @@ function App() {
           name="submenu"
           component={submenu}
           options={{
-            title: "Submenu",
+            title: "Diversos",
           }}
         />
         <Stack.Screen
@@ -133,6 +134,14 @@ function App() {
           component={importantes}
           options={{
             title: "Importantes",
+          }}
+        />
+
+<Stack.Screen
+          name="oficinas"
+          component={oficinas}
+          options={{
+            title: "Oficinas e Guincho",
           }}
         />
       </Stack.Navigator>

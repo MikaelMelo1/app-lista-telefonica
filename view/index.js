@@ -12,6 +12,7 @@ import ferragens from "./ferragens";
 import lojas from "./lojas";
 import pets from "./pets";
 import importantes from "./importantes";
+import oficinas from "./oficinas"
 
 export {
   Inicial,
@@ -27,5 +28,6 @@ export {
   ferragens,
   lojas,
   pets,
+  oficinas,
   importantes,
 };

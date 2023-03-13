@@ -84,7 +84,7 @@ export default function Farmacia(props) {
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051)3722-2503")}
           >
-            <Text style={styles.discagem}>Ligar para a churrascaria</Text>
+            <Text style={styles.discagem}>Ligar para o restaurante</Text>
           </TouchableOpacity>
         </View>
         <View style={styles.card}>
@@ -169,7 +169,7 @@ export default function Farmacia(props) {
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051) 3530-6360")}
           >
-            <Text style={styles.discagem}>Ligar para o restaurante </Text>
+            <Text style={styles.discagem}>Ligar para o Sushi Bar </Text>
           </TouchableOpacity>
         </View>
 
@@ -186,7 +186,7 @@ export default function Farmacia(props) {
               fontWeight: "bold",
             }}
           >
-            Vício Sushi Bar
+            Yakusoku Cozinha Oriental
           </Text>
 
           <Text style={styles.texto}>Rua Aníbal Loreiro, 100 - Centro</Text>
@@ -197,7 +197,7 @@ export default function Farmacia(props) {
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051) 3723-8065")}
           >
-            <Text style={styles.discagem}>Ligar para o restaurante </Text>
+            <Text style={styles.discagem}>Ligar para o Yakusoku </Text>
           </TouchableOpacity>
         </View>
 
@@ -255,7 +255,7 @@ export default function Farmacia(props) {
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051) 3723-9072")}
           >
-            <Text style={styles.discagem}>Ligar para o restaurante </Text>
+            <Text style={styles.discagem}>Ligar para o Digos </Text>
           </TouchableOpacity>
         </View>
 
@@ -283,7 +283,7 @@ export default function Farmacia(props) {
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051) 3723-9072")}
           >
-            <Text style={styles.discagem}>Ligar para o restaurante </Text>
+            <Text style={styles.discagem}>Ligar para o La Fruta </Text>
           </TouchableOpacity>
         </View>
 
@@ -313,7 +313,7 @@ export default function Farmacia(props) {
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051) 99540-4829")}
           >
-            <Text style={styles.discagem}>Ligar para o restaurante </Text>
+            <Text style={styles.discagem}>Ligar para Açai da Smurfette </Text>
           </TouchableOpacity>
         </View>
 
@@ -341,7 +341,7 @@ export default function Farmacia(props) {
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051) 2023-0474")}
           >
-            <Text style={styles.discagem}>Ligar para o restaurante </Text>
+            <Text style={styles.discagem}>Ligar para a Eskimó </Text>
           </TouchableOpacity>
         </View>
       </View>

@@ -110,7 +110,7 @@ export default function Farmacia(props) {
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051) 99975-6113")}
           >
-            <Text style={styles.discagem}>Ligar para a Veterinária</Text>
+            <Text style={styles.discagem}>Ligar para a Slupet</Text>
           </TouchableOpacity>
         </View>
 
@@ -135,7 +135,7 @@ export default function Farmacia(props) {
           <TouchableOpacity
             onPress={() => Linking.openURL("tel:(051) 998638723")}
           >
-            <Text style={styles.discagem}>Ligar para a Veterinária</Text>
+            <Text style={styles.discagem}>Ligar para a Casa de Rações Chagas</Text>
           </TouchableOpacity>
         </View>
 

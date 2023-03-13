@@ -64,7 +64,7 @@ export default function Inicial(props) {
           source={require("./img-menu/icon.png")}
           style={{
             height: 250,
-            width: 200,
+            width: 300,
             marginBottom: 2,
             marginRight: 30,
           }}
