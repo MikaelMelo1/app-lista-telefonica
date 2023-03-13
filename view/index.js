@@ -10,7 +10,8 @@ import alimentacao from "./alimentacao";
 import bares from "./bares";
 import ferragens from "./ferragens";
 import lojas from "./lojas";
-import pets from "./pets"
+import pets from "./pets";
+import importantes from "./importantes";
 
 export {
   Inicial,
@@ -26,4 +27,5 @@ export {
   ferragens,
   lojas,
   pets,
+  importantes,
 };

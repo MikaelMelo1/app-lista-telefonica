@@ -13,6 +13,7 @@ import {
   pets,
   bares,
   alimentacao,
+  importantes,
   ferragens,
 } from "./view/";
 
@@ -97,7 +98,7 @@ function App() {
             title: "Alimentação",
           }}
         />
-         <Stack.Screen
+        <Stack.Screen
           name="bares"
           component={bares}
           options={{
@@ -105,26 +106,33 @@ function App() {
           }}
         />
 
-          <Stack.Screen
+        <Stack.Screen
           name="ferragens"
           component={ferragens}
           options={{
-            title: "Ferragens"
+            title: "Ferragens",
           }}
         />
-         <Stack.Screen
+        <Stack.Screen
           name="lojas"
           component={lojas}
           options={{
-            title: "Lojas"                                                                                                                                                                                                                                                                                                                                                                                                                
+            title: "Lojas",
           }}
         />
 
-         <Stack.Screen
+        <Stack.Screen
           name="pets"
           component={pets}
           options={{
             title: "Pets",
+          }}
+        />
+        <Stack.Screen
+          name="importantes"
+          component={importantes}
+          options={{
+            title: "Importantes",
           }}
         />
       </Stack.Navigator>

@@ -140,6 +140,27 @@ export default function Menu(props) {
           </View>
         </View>
       </TouchableOpacity>
+
+      <TouchableOpacity
+        onPress={() => props.navigation.navigate("importantes")}
+      >
+        <View style={styles.container}>
+          <View
+            style={{
+              justifyContent: "center",
+              backgroundColor: "black",
+              alignItems: "center",
+              height: 200,
+            }}
+          >
+            <Image
+              source={require("./img-menu/sinal-de-aviso.png")}
+              style={styles.image}
+            />
+            <Text style={styles.text}>IMPORTANTES</Text>
+          </View>
+        </View>
+      </TouchableOpacity>
     </ScrollView>
   );
 }

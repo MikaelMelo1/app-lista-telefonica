@@ -61,8 +61,113 @@ export default function Farmacia(props) {
     <ScrollView>
       <View style={styles.container}>
         <View style={styles.card}>
+          <Image source={require("./lojas/benoit.jpg")} style={styles.image} />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Lojas Benoit
+          </Text>
+          <Text style={styles.texto}>
+            Av. Júlio de Castilhos, 275 - Centro{" "}
+          </Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>
+              08h45 às 12h00 {"\n"}
+              13h45 às 18h15
+            </Text>
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 99325-1446")}
+          >
+            <Text style={styles.discagem}>Ligar para a LOJA</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.card}>
+          <Image source={require("./lojas/dullius.jpg")} style={styles.image} />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Lojas Dullius
+          </Text>
+          <Text style={styles.texto}>Rua Saldanha Marinho, 1341 - Centro </Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>09h00 às 19h00</Text>
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 3723-8323")}
+          >
+            <Text style={styles.discagem}>Ligar para a LOJA</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.card}>
+          <Image source={require("./lojas/colombo.jpg")} style={styles.image} />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Lojas Colombo
+          </Text>
+          <Text style={styles.texto}>
+            Av. Júlio de Castilhos, 187 - Centro{" "}
+          </Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>08h30 às 12h00 {"\n"} 13h30 às 18h0 </Text>
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 3722-1110")}
+          >
+            <Text style={styles.discagem}>Ligar para a LOJA</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.card}>
+          <Image source={require("./lojas/bahia.jpg")} style={styles.image} />
+          <Text
+            style={{
+              fontSize: 20,
+              color: "white",
+              marginTop: 10,
+              fontWeight: "bold",
+            }}
+          >
+            Casas Bahia
+          </Text>
+          <Text style={styles.texto}>
+            Av. Júlio de Castilhos, 136 - Centro{" "}
+          </Text>
+          <Text style={styles.textoH}>
+            Horário de Atendimento:{" "}
+            <Text style={styles.xx}>09h00 às 18h30min </Text>
+          </Text>
+          <TouchableOpacity
+            onPress={() => Linking.openURL("tel:(051) 3722-9800")}
+          >
+            <Text style={styles.discagem}>Ligar para a LOJA</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.card}>
           <Image
-            source={require("./farmacia/saojoao-7.jpg")}
+            source={require("./lojas/magazine.jpg")}
             style={styles.image}
           />
           <Text
@@ -73,17 +178,22 @@ export default function Farmacia(props) {
               fontWeight: "bold",
             }}
           >
-            Farmácia São João
+            Magazine Luiza
           </Text>
-          <Text style={styles.texto}>Rua Sete de Setembro, 1265 - Centro</Text>
+          <Text style={styles.texto}>
+            Av. Júlio de Castilhos, 474 - Centro{" "}
+          </Text>
           <Text style={styles.textoH}>
             Horário de Atendimento:{" "}
-            <Text style={styles.xx}>Aberto 24 horas</Text>
+            <Text style={styles.xx}>
+              09h00 às 12h00 {"\n"}
+              13h30 às 18h00
+            </Text>
           </Text>
           <TouchableOpacity
-            onPress={() => Linking.openURL("tel:(051)3722-7070")}
+            onPress={() => Linking.openURL("tel:(051) 3724-8600")}
           >
-            <Text style={styles.discagem}>Ligar para a Farmácia</Text>
+            <Text style={styles.discagem}>Ligar para a LOJA</Text>
           </TouchableOpacity>
         </View>
       </View>
