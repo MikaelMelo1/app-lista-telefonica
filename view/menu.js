@@ -48,7 +48,7 @@ export default function Menu(props) {
               justifyContent: "center",
               alignContent: "center",
               alignItems: "center",
-              backgroundColor: "#D97DFC",
+              backgroundColor: "#ff6347",
               textAlign: "center",
               alignItems: "center",
               height: 200,
@@ -63,31 +63,14 @@ export default function Menu(props) {
         </View>
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => props.navigation.navigate("saude")}>
-        <View style={styles.container}>
-          <View
-            style={{
-              justifyContent: "center",
-              backgroundColor: "#90C022",
-              alignItems: "center",
-              height: 200,
-            }}
-          >
-            <Image
-              source={require("./img-menu/medico.png")}
-              style={styles.image}
-            />
-            <Text style={styles.text}>Saúde</Text>
-          </View>
-        </View>
-      </TouchableOpacity>
+  
 
       <TouchableOpacity onPress={() => props.navigation.navigate("Farmacia")}>
         <View style={styles.container}>
           <View
             style={{
               justifyContent: "center",
-              backgroundColor: "#FF7062",
+              backgroundColor: "#f4ed7b",
               alignItems: "center",
 
               height: 200,
@@ -101,6 +84,30 @@ export default function Menu(props) {
           </View>
         </View>
       </TouchableOpacity>
+
+      
+
+      <TouchableOpacity onPress={() => props.navigation.navigate("saude")}>
+        <View style={styles.container}>
+          <View
+            style={{
+              justifyContent: "center",
+              backgroundColor: "#94f763",
+              alignItems: "center",
+              height: 200,
+            }}
+          >
+            <Image
+              source={require("./img-menu/medico.png")}
+              style={styles.image}
+            />
+            <Text style={styles.text}>Saúde</Text>
+          </View>
+        </View>
+      </TouchableOpacity>
+
+
+
 
       <TouchableOpacity onPress={() => props.navigation.navigate("submenu")}>
         <View style={styles.container}>

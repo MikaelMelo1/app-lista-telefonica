@@ -68,7 +68,7 @@ export default function Menu(props) {
           <View
             style={{
               justifyContent: "center",
-              backgroundColor: "#339933",
+              backgroundColor: "red",
               alignItems: "center",
               height: 200,
             }}
@@ -87,7 +87,7 @@ export default function Menu(props) {
           <View
             style={{
               justifyContent: "center",
-              backgroundColor: "red",
+              backgroundColor: "#808080",
               alignItems: "center",
               height: 200,
             }}
@@ -108,7 +108,7 @@ export default function Menu(props) {
           <View
             style={{
               justifyContent: "center",
-              backgroundColor: "blue",
+              backgroundColor: "#ffe4c4",
               alignItems: "center",
               height: 200,
             }}
@@ -127,7 +127,7 @@ export default function Menu(props) {
           <View
             style={{
               justifyContent: "center",
-              backgroundColor: "#CC6600",
+              backgroundColor: "#ffa07a",
               alignItems: "center",
               height: 200,
             }}
@@ -147,13 +147,13 @@ export default function Menu(props) {
           <View
             style={{
               justifyContent: "center",
-              backgroundColor: "blue",
+              backgroundColor: "#191970",
               alignItems: "center",
               height: 200,
             }}
           >
             <Image
-              source={require("./img-menu/loja-de-roupas.png")}
+              source={require("./img-menu/oficina.png")}
               style={styles.image}
             />
             <Text style={styles.text}>OFICINA E GUINCHO</Text>
@@ -170,7 +170,7 @@ export default function Menu(props) {
           <View
             style={{
               justifyContent: "center",
-              backgroundColor: "black",
+              backgroundColor: "#2f4f4f",
               alignItems: "center",
               height: 200,
             }}

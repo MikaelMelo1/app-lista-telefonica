@@ -99,7 +99,7 @@ export default function Inicial(props) {
             ></Image>
           </TouchableOpacity>
         </View>
-        <Text style={styles.version}>Versão 1.0.0</Text>
+        <Text style={styles.version}>Versão 3.0.0</Text>
       </View>
     </ScrollView>
   );

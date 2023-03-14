@@ -106,7 +106,7 @@ export default function Inicial(props) {
             <MaterialIcons
               style={styles.infor}
               name="info"
-              size={38}
+              size={40}
               color="white"
             ></MaterialIcons>
           </View>
